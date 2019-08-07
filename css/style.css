@@ -103,9 +103,9 @@ h1,h2,h3,h4,h5,content, .region-footer {
 }
 
 
-.form-group:last-child {
+.view-content:last-child {
 	margin-bottom: 15px;
-}
+} 
 
 
 .well {
@@ -138,18 +138,30 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	font-weight: 400;
 }
 
-
+/*
+ * Pager 
+ */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #6d9538;
+    border-color: #58782d;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #db7317;
+}
 /**
  * Change color of search button only for the search interface
  */
 
-.block-search .btn-primary {
+.block-search .btn-primary, .btn-info {
     color: #fff;
     background-color: #6d9538 !important;
     border-color: #58782d !important;
 }
 
-.block-search .btn-primary:hover {
+.block-search .btn-primary:hover, .btn-info:hover {
     background-color: #58782d !important;
 }
 
