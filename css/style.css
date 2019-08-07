@@ -84,7 +84,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
  * Blocks
  */
 
-.block-views {
+.block-views, .block-facets  {
 	border-radius: 8px 8px 8px 8px !important;
 	border-bottom: 1px solid #DCDCDC;
 	border-left: 1px solid #DCDCDC;
@@ -122,6 +122,22 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	border-left: 1px solid #DCDCDC;
 	border-right: 1px solid #DCDCDC;
 }
+
+
+/**
+ * Facet Blocks
+ *
+ * item-list__checkbox js-facets-widget
+ */
+.js-facets-checkbox-links  {
+	list-style-type: none;
+}
+
+.facet-item__value {
+	padding-left: 10px;
+	font-weight: 400;
+}
+
 
 /**
  * Change color of search button only for the search interface
