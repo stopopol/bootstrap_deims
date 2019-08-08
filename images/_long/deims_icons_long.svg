@@ -2,8 +2,8 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
 <svg
-   xmlns:ns="&amp;#38;#38;#38;#38;ns_ai;"
-   xmlns:i="&amp;#38;#38;#38;#38;#38;ns_ai;"
+   xmlns:ns="&amp;#38;#38;#38;#38;#38;ns_ai;"
+   xmlns:i="&amp;#38;#38;#38;#38;#38;#38;ns_ai;"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -50,7 +50,7 @@
    id="namedview9"
    showgrid="false"
    inkscape:zoom="0.23046875"
-   inkscape:cx="1454.7703"
+   inkscape:cx="732.32962"
    inkscape:cy="1606.8159"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
@@ -252,56 +252,60 @@
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:132.84587097px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00000012"
    x="1073.2705"
-   y="502.10495"
+   y="505.9176"
    id="text837-8-1-6"
    inkscape:export-xdpi="4.9899998"
    inkscape:export-ydpi="4.9899998"><tspan
      sodipodi:role="line"
      id="tspan835-2-7-2"
      x="1073.2705"
-     y="502.10495"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:283.40454102px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.23395818">Activities</tspan></text>
+     y="505.9176"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:293.33334351px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.23395818">Activities</tspan></text>
+
 
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:150.09092712px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00000012"
-   x="1042.9515"
-   y="1199.5455"
+   x="1045.6971"
+   y="1190.4532"
    id="text837-8-1-6-1"
    inkscape:export-xdpi="4.9899998"
    inkscape:export-ydpi="4.9899998"><tspan
      sodipodi:role="line"
      id="tspan835-2-7-2-9"
-     x="1042.9515"
-     y="1199.5455"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320.19400024px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.23395818">Datasets</tspan></text>
+     x="1045.6971"
+     y="1190.4532"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:293.33334351px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.23395818">Datasets</tspan></text>
+
 
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:147.56484985px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00000012"
-   x="1067.1008"
-   y="1897.4922"
+   x="1067.6971"
+   y="1890.0952"
    id="text837-8-1-6-1-0"
    inkscape:export-xdpi="4.9899998"
    inkscape:export-ydpi="4.9899998"><tspan
      sodipodi:role="line"
      id="tspan835-2-7-2-9-0"
-     x="1067.1008"
-     y="1897.4922"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:314.80505371px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.23395818">Sensors</tspan></text>
+     x="1067.6971"
+     y="1890.0952"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:293.33334351px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.23395818">Sensors</tspan></text>
+
 
 <text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:132.84564209px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00000012"
-   x="1067.8859"
-   y="2595.7517"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:293.33334351px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00000012"
+   x="1067.6971"
+   y="2599.5645"
    id="text837-8-1-6-1-00"
    inkscape:export-xdpi="4.9899998"
    inkscape:export-ydpi="4.9899998"><tspan
      sodipodi:role="line"
      id="tspan835-2-7-2-9-2"
-     x="1067.8859"
-     y="2595.7517"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:283.40405273px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.23395817">Sites</tspan></text>
+     x="1067.6971"
+     y="2599.5645"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:293.33334351px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.23395817">Sites</tspan></text>
+
 
 </svg>
