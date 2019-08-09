@@ -137,8 +137,16 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	border-bottom: none;
     border-left: none;
     border-right: none;
- }
- 
+}
+
+.block-facets h3 {
+    background-color: #6d9538;
+    color: white;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
  
 .js-facets-checkbox-links  {
 	list-style-type: none;
