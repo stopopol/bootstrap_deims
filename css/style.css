@@ -132,6 +132,14 @@ h1,h2,h3,h4,h5,content, .region-footer {
  *
  * item-list__checkbox js-facets-widget
  */
+ 
+.block-facets {
+	border-bottom: none;
+    border-left: none;
+    border-right: none;
+ }
+ 
+ 
 .js-facets-checkbox-links  {
 	list-style-type: none;
 }
