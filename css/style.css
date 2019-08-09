@@ -92,6 +92,10 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	padding-top: 0px;
 }
 
+.block-facets {
+	margin-bottom: 10px;
+}
+
 .block-title {
 	border-radius: 8px 8px 0px 0px !important;
 	background-color: #6d9538;
@@ -123,6 +127,11 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	border-right: 1px solid #DCDCDC;
 }
 
+
+.collapsiblockCollapsed .block-title:after {
+	content: "\25be";
+
+}
 
 /**
  * Facet Blocks
@@ -166,7 +175,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 }
 
 .hover_container:hover .hover_image {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 /*
