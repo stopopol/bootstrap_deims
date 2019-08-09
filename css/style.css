@@ -166,7 +166,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 }
 
 .hover_container:hover .hover_image {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 /*
