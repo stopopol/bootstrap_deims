@@ -127,12 +127,6 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	border-right: 1px solid #DCDCDC;
 }
 
-
-.collapsiblockCollapsed .block-title:after {
-	content: "\25be";
-
-}
-
 /**
  * Facet Blocks
  *
