@@ -209,14 +209,15 @@ h1,h2,h3,h4,h5,content, .region-footer {
  * Change color of search button only for the search interface
  */
 
-.block-search .btn-primary, .btn-info {
+.block-search .btn-primary, .btn-info, .btn-default {
     color: #fff;
     background-color: #6d9538 !important;
     border-color: #58782d !important;
 }
 
-.block-search .btn-primary:hover, .btn-info:hover {
+.block-search .btn-primary:hover, .btn-info:hover, .btn-default:hover {
     background-color: #58782d !important;
+	color: #fff;
 }
 
 /**
