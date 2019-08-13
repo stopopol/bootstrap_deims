@@ -217,7 +217,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 
 .block-search .btn-primary:hover, .btn-info:hover, .btn-default:hover {
     background-color: #58782d !important;
-	color: #fff;
+	color: #fff !important;
 }
 
 /**
