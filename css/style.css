@@ -218,6 +218,10 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	color: #fff !important;
 }
 
+.form-inline.form-group button {
+	margin-right: 10px;
+} 
+
 /**
  *  Main Navigation Menu
  */
