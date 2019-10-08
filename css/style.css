@@ -218,9 +218,9 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	color: #fff !important;
 }
 
-.form-inline.form-group button {
+.form-inline.form-group button, .form-group.form-wrapper button {
 	margin-right: 10px;
-} 
+}
 
 /**
  *  Main Navigation Menu
