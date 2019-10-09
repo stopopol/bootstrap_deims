@@ -72,11 +72,75 @@ h1,h2,h3,h4,h5,content, .region-footer {
  * Admin/Edit Tabs
  */
 
-
 .nav-tabs {
 	margin-bottom: 1em;
 }
 
+/**
+ * Completeness Status Bar
+ */
+
+.deims_status_bar_container {
+	color: #fff!important;
+	background-color: #808080!important;
+	text-align: center!important;
+	border-radius: 5px;
+}
+
+.deims_status_bar_length_0 {
+	width: 10%;
+	background-color: #B71C1C!important;
+}
+
+.deims_status_bar_length_10 {
+	width: 10%;
+	background-color: #B71C1C!important;
+}
+
+.deims_status_bar_length_20 {
+	width: 20%;
+	background-color: #B71C1C!important;
+}
+
+.deims_status_bar_length_30 {
+	width: 30%;
+	background-color: #B71C1C!important;
+}
+
+.deims_status_bar_length_40 {
+	width: 40%;
+	background-color: #B71C1C!important;
+}
+
+.deims_status_bar_length_50 {
+	width: 50%;
+	background-color: #B71C1C!important;
+}
+
+.deims_status_bar_length_60 {
+	width: 60%;
+	background-color: #ff6600!important;
+}
+
+.deims_status_bar_length_70 {
+	width: 70%;
+	background-color: #ff6600!important;
+}
+
+.deims_status_bar_length_80 {
+	width: 80%;
+	background-color: #ff6600!important;
+}
+
+.deims_status_bar_length_90 {
+	width: 90%;
+	background-color: #8AA137!important;
+}
+
+.deims_status_bar_length_100 {
+	width: 100%;
+	background-color: #8AA137!important;
+}
 
 /**
  * Blocks
