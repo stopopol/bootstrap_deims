@@ -80,11 +80,20 @@ h1,h2,h3,h4,h5,content, .region-footer {
  * Completeness Status Bar
  */
 
+.deims_status_bar_border {
+	width: 100%;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #D3D3D3;
+	border-width: 1px;
+}
+
+
 .deims_status_bar_container {
+	border-radius: 5px;
 	color: #fff!important;
 	background-color: #808080!important;
 	text-align: center!important;
-	border-radius: 5px;
 }
 
 .deims_status_bar_length_0 {
