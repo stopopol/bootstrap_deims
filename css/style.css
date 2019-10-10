@@ -88,6 +88,9 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	border-width: 1px;
 }
 
+.deims_status_bar_text_align {
+	text-align: right;
+}
 
 .deims_status_bar_container {
 	border-radius: 5px;
