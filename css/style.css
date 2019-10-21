@@ -514,6 +514,10 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	content: none !important;
 }
 
+.form-wrapper{
+	width: 100%;
+}
+
 /*
  * CSS for chosen
  *
