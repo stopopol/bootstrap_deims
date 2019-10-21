@@ -509,6 +509,11 @@ h1,h2,h3,h4,h5,content, .region-footer {
     height: auto;
 }
 
+/* remove arrow coming from original bootstrap module */
+.select-wrapper:after {
+	content: none !important;
+}
+
 /*
  * CSS for chosen
  *
