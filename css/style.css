@@ -146,7 +146,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 
 .deims_status_bar_length_90 {
 	width: 90%;
-	background-color: #ffa062!important;
+	background-color: #8AA137!important;
 }
 
 .deims_status_bar_length_100 {
@@ -495,6 +495,21 @@ h1,h2,h3,h4,h5,content, .region-footer {
 }
 
 /*
+ * CSS for chosen, bugfix
+ *
+ * https://www.drupal.org/project/chosen/issues/1857298
+ */
+
+.tabs-left > .tab-content, .tabs-right > .tab-content {
+    overflow: visible;
+    display: flex;
+}
+
+.form-control.chosen-processed {
+    height: auto;
+}
+
+/*
  * CSS for chosen
  *
  * https://gist.github.com/koenpunt/6424137
@@ -504,6 +519,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	border: none !important;
 	padding: 0px !important;
 	margin-bottom: 10px;
+    max-width: 100% !important;
   }
  
  
