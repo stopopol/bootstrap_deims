@@ -514,7 +514,8 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	content: none !important;
 }
 
-.form-wrapper{
+/* bugfixed for small width values of widgehts*/
+.field-group-tab {
 	width: 100%;
 }
 
