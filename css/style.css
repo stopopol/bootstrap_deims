@@ -494,11 +494,22 @@ h1,h2,h3,h4,h5,content, .region-footer {
     margin-top: 1em;
 }
 
+
+/*
+ * Fix for scrollbars in dynamically loaded paragraphs
+ *
+ */
+
+.table-responsive {
+	overflow-x: visible;
+}
+
 /*
  * CSS for chosen, bugfix
  *
  * https://www.drupal.org/project/chosen/issues/1857298
  */
+
 
 .tabs-left > .tab-content, .tabs-right > .tab-content {
     overflow: visible;
