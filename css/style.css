@@ -315,6 +315,10 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	border-radius: 8px 8px 8px 8px;
 }
 
+ul.sf-menu.sf-style-white li, ul.sf-menu.sf-style-white.sf-navbar {
+    background: #FFFFFF;
+}
+
 /* keep second level always visible */
 .sf-depth-2 menuparent>ul {
 display: inline !important;
