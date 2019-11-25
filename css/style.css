@@ -319,6 +319,10 @@ ul.sf-menu.sf-style-white li, ul.sf-menu.sf-style-white.sf-navbar {
     background: #FFFFFF;
 }
 
+ul.sf-menu.sf-style-white span.nolink:hover {
+    background: #FFFFFF !important;
+}
+
 /* keep second level always visible */
 .sf-depth-2 menuparent>ul {
 display: inline !important;
@@ -369,14 +373,23 @@ top: auto!important;
 	border-radius: 0px;
 }
 
+#superfish-main ul a :first-of-type {
+	border-radius: 8px 8px 0px 0px !important;
+}
+
+#superfish-main ul a :last-of-type {
+	border-radius: 0px 0px 8px 8px !important;
+}
+
+
 #superfish-main ul a:hover :first-of-type {
 	border: 1px solid #DCDCDC !important;
-	border-radius: 8px 8px 0px 0px;
+	border-radius: 8px 8px 0px 0px !important;
 }
 
 #superfish-main ul a:hover :last-of-type {
 	border: 1px solid #DCDCDC !important;
-	border-radius: 0px 0px 8px 8px;
+	border-radius: 0px 0px 8px 8px !important;
 }
 
 
