@@ -736,6 +736,11 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
   clear: both;
 }
 
+/* centered "apply" button in view filters */
+.view-filters.form-group #edit-actions {
+	margin-bottom: 0px !important;
+}
+
 /* fix inline taxonomy terms */
 /* field research topics */
 .field--name-field-research-topics .field--item {
