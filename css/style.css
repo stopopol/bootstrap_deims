@@ -769,15 +769,15 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
   content: none;
 }
 
-.field--name-field-projects field .field--item {
+.field--name-field-projects .field--item {
   display: inline-block;
 }
-.field--name-field-projects field .field--item:after {
+.field--name-field-projects .field--item:after {
   content: ",";
 }
-.field--name-field-projects field .field--item:last-child:after {
+.field--name-field-projects .field--item:last-child:after {
   content: none;
 }
-.field--name-field-projects field .field--item:first-child:before {
+.field--name-field-projects .field--item:first-child:before {
   content: none;
 }
