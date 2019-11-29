@@ -146,7 +146,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 
 .deims_status_bar_length_90 {
 	width: 90%;
-	background-color: #8AA137!important;
+	background-color: #ffa062!important;
 }
 
 .deims_status_bar_length_100 {
@@ -766,5 +766,18 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
   content: none;
 }
 .field--name-field-parameters .field--item:first-child:before {
+  content: none;
+}
+
+.field--name-field-projects field .field--item {
+  display: inline-block;
+}
+.field--name-field-projects field .field--item:after {
+  content: ",";
+}
+.field--name-field-projects field .field--item:last-child:after {
+  content: none;
+}
+.field--name-field-projects field .field--item:first-child:before {
   content: none;
 }
