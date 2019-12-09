@@ -566,15 +566,15 @@ top: auto!important;
  * https://gist.github.com/koenpunt/6424137
  */
  
-  .form-control.chosen-container {
+.form-control.chosen-container {
 	border: none !important;
 	padding: 0px !important;
 	margin-bottom: 10px;
     max-width: 100% !important;
-  }
+}
  
  
- select.form-control + .chosen-container.chosen-container-single .chosen-single {
+select.form-control + .chosen-container.chosen-container-single .chosen-single {
     display: block;
     width: 100%;
     height: 34px;
