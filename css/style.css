@@ -180,12 +180,6 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	margin-top: 0em;
 }
 
-
-.view-content:last-child {
-	margin-bottom: 15px;
-} 
-
-
 .well {
 	background-color: transparent;
 	border: none;
