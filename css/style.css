@@ -309,11 +309,17 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	border-radius: 8px 8px 8px 8px;
 }
 
-ul.sf-menu.sf-style-white li, ul.sf-menu.sf-style-white.sf-navbar {
+
+#superfish-main ul.sf-menu.sf-style-white li, ul.sf-menu.sf-style-white.sf-navbar {
     background: #FFFFFF;
 }
 
-ul.sf-menu.sf-style-white span.nolink:hover {
+
+#superfish-main ul.sf-menu.sf-style-white li li, ul.sf-menu.sf-style-white.sf-navbar>li>u {
+	background: #FFFFFF;
+}
+
+#superfish-main ul.sf-menu.sf-style-white span.nolink:hover {
     background: #FFFFFF !important;
 }
 
@@ -374,7 +380,6 @@ top: auto!important;
 #superfish-main ul a :last-of-type {
 	border-radius: 0px 0px 8px 8px !important;
 }
-
 
 #superfish-main ul a:hover :first-of-type {
 	border: 1px solid #DCDCDC !important;
