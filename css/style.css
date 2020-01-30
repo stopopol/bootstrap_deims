@@ -368,26 +368,25 @@ top: auto!important;
     -o-border-radius: 8px; 
 }
 
-#superfish-main ul a:hover {
-	border: 0px;
-	border-radius: 0px;
-}
+/* first sub menu */
 
-#superfish-main ul a :first-of-type {
+#superfish-main ul a:first-of-type {
 	border-radius: 8px 8px 0px 0px !important;
 }
 
-#superfish-main ul a :last-of-type {
+#superfish-main ul a:last-of-type {
 	border-radius: 0px 0px 8px 8px !important;
 }
 
-#superfish-main ul a:hover :first-of-type {
-	border: 1px solid #DCDCDC !important;
+#superfish-main ul a:hover {
+	color: #535a60;
+}
+
+#superfish-main ul a:first-of-type:hover {
 	border-radius: 8px 8px 0px 0px !important;
 }
 
-#superfish-main ul a:hover :last-of-type {
-	border: 1px solid #DCDCDC !important;
+#superfish-main ul a:last-of-type:hover {
 	border-radius: 0px 0px 8px 8px !important;
 }
 
