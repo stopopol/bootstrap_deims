@@ -330,6 +330,13 @@ ul.sf-menu.sf-style-white li li, ul.sf-menu.sf-style-white.sf-navbar>li>ul {
     background: #ffffff !important;
 }
 
+ul.sf-menu.sf-style-white li li:first-of-type {
+	border-radius: 8px 8px 0px 0px;
+}
+
+ul.sf-menu.sf-style-white li li:last-of-type {
+	border-radius: 0px 0px 8px 8px;
+}
 
 /* keep second level always visible */
 .sf-depth-2 menuparent>ul {
