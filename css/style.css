@@ -310,18 +310,26 @@ h1,h2,h3,h4,h5,content, .region-footer {
 }
 
 
-#superfish-main ul.sf-menu.sf-style-white li, ul.sf-menu.sf-style-white.sf-navbar {
-    background: #FFFFFF;
-}
-
-
 #superfish-main ul.sf-menu.sf-style-white li li, ul.sf-menu.sf-style-white.sf-navbar>li>u {
-	background: #FFFFFF;
+	background: #FFFFFF !important;
 }
 
 #superfish-main ul.sf-menu.sf-style-white span.nolink:hover {
     background: #FFFFFF !important;
 }
+
+ul.sf-menu.sf-style-white li:hover {
+    background: #ffffff;
+}
+
+ul.sf-menu.sf-style-white li, ul.sf-menu.sf-style-white.sf-navbar {
+    background: #ffffff;
+}
+
+ul.sf-menu.sf-style-white li li, ul.sf-menu.sf-style-white.sf-navbar>li>ul {
+    background: #ffffff !important;
+}
+
 
 /* keep second level always visible */
 .sf-depth-2 menuparent>ul {
