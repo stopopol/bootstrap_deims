@@ -378,26 +378,9 @@ top: auto!important;
 
 /* first sub menu */
 
-#superfish-main ul a:first-of-type {
-	border-radius: 8px 8px 0px 0px !important;
-}
-
-#superfish-main ul a:last-of-type {
-	border-radius: 0px 0px 8px 8px !important;
-}
-
 #superfish-main ul a:hover {
 	color: #535a60;
 }
-
-#superfish-main ul a:first-of-type:hover {
-	border-radius: 8px 8px 0px 0px !important;
-}
-
-#superfish-main ul a:last-of-type:hover {
-	border-radius: 0px 0px 8px 8px !important;
-}
-
 
 /*
  * DEIMS Logo and Home Button
