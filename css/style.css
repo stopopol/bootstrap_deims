@@ -781,3 +781,14 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
 .field--name-field-projects .field--item:first-child:before {
   content: none;
 }
+
+/* quick fix for aligning the filters in the advanced search for sites */
+.select-wrapper {
+        display: block !important;
+}
+
+#edit-submit-advanced-search-sites-datasets-activities-sensors {
+        margin-top: 10px !important;
+        vertical-align: bottom !important;
+}
+
