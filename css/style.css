@@ -792,3 +792,8 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
         vertical-align: bottom !important;
 }
 
+/* css to hide second freetext filter in quick search form */
+#views-exposed-form-search-page-1 {
+	visibility: hidden;
+	height: 0px;
+}
