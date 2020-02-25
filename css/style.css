@@ -307,6 +307,10 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	border-bottom: solid #d1d5da 1px;
 }
 
+#superfish-main {
+	padding-right: 1em;
+}
+
 #superfish-main a, #superfish-main .nolink {
 	background-color: #FFFFFF;
     color: #535a60;
