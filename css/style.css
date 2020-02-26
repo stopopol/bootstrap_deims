@@ -160,9 +160,9 @@ h1,h2,h3,h4,h5,content, .region-footer {
 
 .block-views, .block-facets  {
 	border-radius: 8px 8px 8px 8px !important;
-	border-bottom: 1px solid #DCDCDC;
-	border-left: 1px solid #DCDCDC;
-	border-right: 1px solid #DCDCDC;
+	border-bottom: 1px solid #d1d5da;
+	border-left: 1px solid #d1d5da;
+	border-right: 1px solid #d1d5da;
 	padding-top: 0px;
 }
 
@@ -194,9 +194,9 @@ h1,h2,h3,h4,h5,content, .region-footer {
 
 .block-block-content {
 	border-radius: 8px 8px 8px 8px !important;
-	border-bottom: 1px solid #DCDCDC;
-	border-left: 1px solid #DCDCDC;
-	border-right: 1px solid #DCDCDC;
+	border-bottom: 1px solid #d1d5da;
+	border-left: 1px solid #d1d5da;
+	border-right: 1px solid #d1d5da;
 }
 
 /**
@@ -206,7 +206,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
  */
  
 .block-facets {
-	border-bottom: none;
+    border-bottom: none;
     border-left: none;
     border-right: none;
 }
