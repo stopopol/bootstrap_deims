@@ -800,3 +800,8 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
 	visibility: hidden;
 	height: 0px;
 }
+
+/* vertical text align in tables */
+.table>tbody>tr>td {
+	vertical-align: middle !important;
+}
