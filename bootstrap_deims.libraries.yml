@@ -2,6 +2,7 @@ framework:
   css:
     theme:
       css/style.css: {}
+      css/main_menu.css: {}
  
 open_sans:
   version: 1.00

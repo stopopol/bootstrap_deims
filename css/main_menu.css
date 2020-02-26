@@ -1,0 +1,133 @@
+/**
+ *  Main Navigation Menu
+ */
+ 
+#navbar {
+	background-color: #FFFFFF;
+    border-color: transparent;
+	border-bottom: solid #d1d5da 1px;
+}
+
+
+#superfish-main {
+	padding-right: 1em;
+}
+
+#superfish-main a, #superfish-main .nolink {
+	background-color: #FFFFFF;
+    color: #535a60;
+	border-radius: 8px 8px 8px 8px;
+}
+
+
+#superfish-main ul.sf-menu.sf-style-white li li, ul.sf-menu.sf-style-white.sf-navbar>li>u {
+	background: #FFFFFF !important;
+}
+
+#superfish-main ul.sf-menu.sf-style-white span.nolink:hover {
+    background: #FFFFFF !important;
+}
+
+ul.sf-menu.sf-style-white li:hover {
+    background: #ffffff;
+}
+
+ul.sf-menu.sf-style-white li, ul.sf-menu.sf-style-white.sf-navbar {
+    background: #ffffff;
+}
+
+ul.sf-menu.sf-style-white li li, ul.sf-menu.sf-style-white.sf-navbar>li>ul {
+    background: #ffffff !important;
+}
+
+ul.sf-menu.sf-style-white li li:first-of-type {
+	border-radius: 8px 8px 0px 0px;
+}
+
+ul.sf-menu.sf-style-white li li:last-of-type {
+	border-radius: 0px 0px 8px 8px;
+}
+
+/* keep second level always visible */
+.sf-depth-2 menuparent>ul {
+display: inline !important;
+visibility: visible!important;
+display: block!important;
+left: 0!important;
+top: auto!important;
+}
+
+/*
+ * Adds an arrow to parents
+ */
+ 
+
+#superfish-main .nolink:after {
+	content: "\25be";
+	float: right;
+}
+
+.sf-depth-2.nolink:after {
+	content: "\25B8" !important;
+	float: right;
+}
+
+.sf-depth-2>ul {
+	margin-left: -2px !important;
+}
+
+#superfish-main a:hover {
+	background-color: #d1d5da;
+    	color: #000000;
+	border-radius: 8px;
+	text-decoration: none;
+} 
+
+#superfish-main ul {
+	text-decoration: none;
+	border: 1px solid #d1d5da;
+	overflow: visible;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px; 
+}
+
+/* first sub menu */
+
+#superfish-main ul a:hover {
+	color: #535a60;
+}
+
+/*
+ * DEIMS Logo and Home Button
+ */
+
+#main-standardfront-page {
+	background-image: url('../images/logo_title_inline_height20.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+	width: 160px;
+	height: 35px;
+}
+
+#main-standardfront-page a {
+	color: transparent !important;
+	background-color: transparent !important;
+	width: 160px;
+	height: 35px;
+}
+
+/**
+ *  Footer
+ */
+
+#superfish-footer {
+	font-size: 85%;
+	display: flex;
+	justify-content: center;
+}
+
+#superfish-footer a {
+	padding-top: 0px;
+}

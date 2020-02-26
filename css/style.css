@@ -180,16 +180,16 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	margin-top: 0em;
 }
 
-.remove_borders {
-    border-style: none; 
-}
-
 .well {
 	background-color: transparent;
-	border: none;
+	border: none !important;
 	padding-top: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+.remove_borders {
+    border-style: none !important;
 }
 
 .block-block-content {
@@ -306,6 +306,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	border-bottom: solid #d1d5da 1px;
 }
 
+
 #superfish-main {
 	padding-right: 1em;
 }
@@ -375,7 +376,7 @@ top: auto!important;
 
 #superfish-main a:hover {
 	background-color: #d1d5da;
-    color: #000000;
+    	color: #000000;
 	border-radius: 8px;
 	text-decoration: none;
 } 
@@ -414,6 +415,12 @@ top: auto!important;
 	width: 160px;
 	height: 35px;
 }
+
+/*
+#main-standardfront-page:hover {
+	background-color: #DCDCDC;
+	border-radius: 8px;	
+} */
 
 /**
  *  Footer
@@ -780,23 +787,22 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
   content: none;
 }
 
-/* quick fix for aligning the filters in the advanced search for sites */
+/* quick fix for aligning the filters in the advanced search for sites */ 
 .select-wrapper {
-        display: block !important;
+	display: block !important;
 }
 
 #edit-submit-advanced-search-sites-datasets-activities-sensors {
-        margin-top: 10px !important;
+	margin-top: 10px !important;
         vertical-align: bottom !important;
 }
 
-/* css to hide second freetext filter in quick search form */
+/* make second search filter in quick search view invisible */
 #views-exposed-form-search-page-1 {
 	visibility: hidden;
 	height: 0px;
 }
 
-/* vertical text align in tables */
 .table>tbody>tr>td {
 	vertical-align: middle !important;
 }
