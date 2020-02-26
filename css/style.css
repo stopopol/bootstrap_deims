@@ -374,7 +374,7 @@ top: auto!important;
 }
 
 #superfish-main a:hover {
-	background-color: #DCDCDC;
+	background-color: #d1d5da;
     color: #000000;
 	border-radius: 8px;
 	text-decoration: none;
@@ -382,7 +382,7 @@ top: auto!important;
 
 #superfish-main ul {
 	text-decoration: none;
-	border: 1px solid #DCDCDC;
+	border: 1px solid #d1d5da;
 	overflow: visible;
 	-moz-border-radius: 8px;
     -webkit-border-radius: 8px;
