@@ -811,4 +811,5 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
 a[href^="#mandatory-tab-red-asterisk"] span::after {
   content: "*";
   color: red;
+  font-weight: bold;
 }
