@@ -806,3 +806,9 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
 .table>tbody>tr>td {
 	vertical-align: middle !important;
 }
+
+/* adding asterisks to vertical tabs manually */
+a[href^="#mandatory-tab-red-asterisk"] span::after {
+  content: "*";
+  color: red;
+}
