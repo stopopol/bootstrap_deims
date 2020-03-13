@@ -796,7 +796,7 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
 	display: block !important;
 }
 
-#edit-submit-advanced-search-sites-datasets-activities-sensors {
+#edit-submit-advanced-search-sites-datasets-activities-sensors, #edit-submit-my-content {
 	margin-top: 10px !important;
         vertical-align: bottom !important;
 }
