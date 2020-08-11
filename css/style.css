@@ -37,16 +37,16 @@ body, p, a, li {
 }
 
 a {
-	color: #db7317;
+	color: #0366D6;
 }
 
 a:link {
-	color: #db7317;
+	color: #0366D6;
 }
 
 a:visited {
-	color: #db7317;
-	text-decoration: none;
+	color: #0366D6;
+	font-decoration: none;
 }
 
 /* mouse over link */
@@ -176,7 +176,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 
 .block-title {
 	border-radius: 8px 8px 0px 0px !important;
-	background-color: #6d9538;
+	background-color: #525b76;
 	color: #FFFFFF !important;
 	padding-left: 10px;
 	padding-bottom: 5px;
@@ -216,7 +216,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 }
 
 .block-facets h3 {
-    background-color: #6d9538;
+    background-color: #525b76;
     color: white;
     border-radius: 15px;
     padding-left: 20px;
@@ -274,11 +274,11 @@ h1,h2,h3,h4,h5,content, .region-footer {
     z-index: 3;
     color: #fff;
     cursor: default;
-    background-color: #6d9538;
+    background-color: #525b76;
     border-color: #58782d;
 }
 .pagination>li>a, .pagination>li>span {
-    color: #db7317;
+    color: #525b76;
 }
 /**
  * Change color of search button only for the search interface
@@ -493,11 +493,11 @@ top: auto!important;
 }
 
 .custom-collapsible-details .panel-heading a {
-	color: #db7317;
+	color: #0366d6;
 }
 
 .custom-collapsible-details .panel-heading a:hover {
-	color: #db7317;
+	color: #0366d6;
 	text-decoration: underline;
 }
 
@@ -513,15 +513,15 @@ top: auto!important;
 .panel-title {
 	font-size: 14px;
 	padding: 5px 15px;
-	color: #666666;
+	color: #424242;
 }
 
 .panel-title:hover {
-	color: #666666;
+	color: #424242;
 }
 
 .panel-default .panel-heading {
-	background: #dbdbdb;
+	background: #EBEBEB;
     border-bottom: none;
 }
 
@@ -811,9 +811,21 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
 	vertical-align: middle !important;
 }
 
-/* adding asterisks to vertical tabs manually */
+/* adding red asterisk to vertical tabs manually */
 a[href^="#mandatory-tab-red-asterisk"] span::after {
   content: "*";
   color: red;
   font-weight: bold;
+}
+
+.vertical-tabs .vertical-tab-hidden {
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+.vertical-tabs .vertical-tabs-active-tab {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    visibility: visible;
 }
