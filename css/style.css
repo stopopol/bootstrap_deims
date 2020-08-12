@@ -287,12 +287,12 @@ h1,h2,h3,h4,h5,content, .region-footer {
 
 .btn-primary, .btn-info, .btn-default, .btn-success {
     color: #fff;
-    background-color: #6d9538 !important;
-    border-color: #58782d !important;
+    background-color: #525b76 !important;
+    border-color: #333849 !important;
 }
 
 .btn-primary:hover, .btn-info:hover, .btn-default:hover, .btn-success:hover {
-    background-color: #58782d !important;
+    background-color: #333849 !important;
 	color: #fff !important;
 }
 
