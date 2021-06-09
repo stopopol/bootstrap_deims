@@ -840,3 +840,8 @@ a[href^="#mandatory-tab-red-asterisk"] span::after {
 .styled_search_block > div > ul > li > label {
     display: unset !important;
 }
+
+.styled_search_block > div > ul > li > label > span {
+    font-weight: 400 !important;
+}
+
