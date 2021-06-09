@@ -829,3 +829,10 @@ a[href^="#mandatory-tab-red-asterisk"] span::after {
     display: block;
     visibility: visible;
 }
+
+.styled_search_block > .block-title {
+    background-color: white !important;
+    color: black !important;
+    font-size: 100% !important;
+    font-weight: bold !important;
+}
