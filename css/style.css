@@ -836,3 +836,7 @@ a[href^="#mandatory-tab-red-asterisk"] span::after {
     font-size: 100% !important;
     font-weight: bold !important;
 }
+
+.styled_search_block > div > ul > li > label {
+    display: unset !important;
+}
