@@ -746,18 +746,6 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
 
 /* fix inline taxonomy terms */
 /* field research topics */
-.field--name-field-research-topics .field--item {
-  display: inline-block;
-}
-.field--name-field-research-topics .field--item:after {
-  content: ",";
-}
-.field--name-field-research-topics .field--item:last-child:after {
-  content: none;
-}
-.field--name-field-research-topics .field--item:first-child:before {
-  content: none;
-}
 
 .field--name-field-projects .field--item {
   display: inline-block;
