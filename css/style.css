@@ -759,19 +759,6 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
   content: none;
 }
 
-.field--name-field-parameters .field--item {
-  display: inline-block;
-}
-.field--name-field-parameters .field--item:after {
-  content: ",";
-}
-.field--name-field-parameters .field--item:last-child:after {
-  content: none;
-}
-.field--name-field-parameters .field--item:first-child:before {
-  content: none;
-}
-
 .field--name-field-projects .field--item {
   display: inline-block;
 }
