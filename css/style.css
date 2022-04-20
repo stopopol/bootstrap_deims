@@ -814,3 +814,9 @@ a[href^="#mandatory-tab-red-asterisk"] span::after {
     font-weight: 400 !important;
 }
 
+/**
+ * Slick - make caption visible again
+ */
+.slide__caption {
+    visibility: visible !important; 
+}
