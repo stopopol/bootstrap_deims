@@ -814,9 +814,7 @@ a[href^="#mandatory-tab-red-asterisk"] span::after {
     font-weight: 400 !important;
 }
 
-/**
- * Slick - make caption visible again
- */
-.slide__caption {
-    visibility: visible !important; 
+
+#edit-field-standard-observation--wrapper, #edit-field-parameters--wrapper, #edit-field-ecosystem-land-use--wrapper, #edit-field-eunis-habitat--wrapper, #edit-field-landforms--wrapper, #edit-field-management-of-resources--wrapper, #edit$
+        width: 100%;
 }
