@@ -719,3 +719,7 @@ select.form-control + .chosen-container-multi .chosen-results li.result-selected
   clear: both;
 }
 
+ /*
+/var/www/deims/web/modules/contrib/search_api_autocomplete/css/search_api_autocomplete.css
+add !important to "padding: 0;"
+*/
