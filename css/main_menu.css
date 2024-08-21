@@ -87,11 +87,11 @@ top: auto!important;
 	text-decoration: none;
 	border: 1px solid #d1d5da;
 	overflow: visible;
-	background-color: white;
 	-moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px; 
+	background-color: white;
 }
 
 /* first sub menu */
@@ -132,3 +132,5 @@ top: auto!important;
 #superfish-footer a {
 	padding-top: 0px;
 }
+
+
