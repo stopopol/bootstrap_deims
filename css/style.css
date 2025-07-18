@@ -816,4 +816,6 @@ a[href^="#mandatory-tab-red-asterisk"] span::after {
 	width: 100%;
 }
 
-
+.force_margin-bottom {
+    margin-bottom: 20px !important;
+}
