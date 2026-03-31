@@ -1,14 +1,36 @@
-/* Hide the default Drupal throbber image */
-.ajax-progress .throbber {
-  background-image: none;
+/* ─────────────────────────────────────────
+   DEIMS – Custom AJAX Loader Override
+───────────────────────────────────────── */
+
+/* Target the glyphicon-based throbber directly */
+.glyphicon-refresh.ajax-progress-throbber {
+  background-image: none !important;
+  
+  /* Kill the glyphicon font character */
+  font-size: 0 !important;
+  
+  /* Size the element */
+  width: 18px !important;
+  height: 18px !important;
+  
+  /* CSS spinner */
+  border: 2.5px solid rgba(0, 0, 0, 0.12) !important;
+  border-top-color: #2c7be5 !important;
+  border-radius: 50% !important;
+  
+  /* Must be inline-block to respect width/height on a span */
+  display: inline-block !important;
+  vertical-align: middle !important;
+  
+  /* Remove glyphicon pseudo-element */
+  animation: deims-spin 0.7s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite !important;
 }
 
-/* Replace with a Bootstrap spinner */
-.ajax-progress-throbber .throbber {
-  width: 1.5rem;
-  height: 1.5rem;
-  border: 0.2em solid currentColor;
-  border-right-color: transparent;
-  border-radius: 50%;
-  animation: spinner-border 0.75s linear infinite;
+/* Also kill the ::before pseudo-element that renders the glyph character */
+.glyphicon-refresh.ajax-progress-throbber::before {
+  content: none !important;
+}
+
+@keyframes deims-spin {
+  to { transform: rotate(360deg); }
 }
