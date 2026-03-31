@@ -30,7 +30,6 @@
 
 /* Optional loading text */
 .ajax-progress::after {
-  content: "Loading…";
   font-size: 0.85rem;
   color: #6b7280;
 }
