@@ -47,14 +47,39 @@ a[href^="/search-sites-csv"] {
   transition: all 0.15s ease;
 }
 
-/* subtle hover refinement */
+/* SVG icon */
+a[href^="/search-sites-csv"]::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  flex-shrink: 0;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* download icon (arrow into tray) */
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%23374151' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'>\
+<path d='M10 3v9'/>\
+<path d='M6.5 9.5L10 13l3.5-3.5'/>\
+<path d='M4 15h12'/>\
+</svg>");
+}
+
+/* hover refinement */
 a[href^="/search-sites-csv"]:hover {
   background: #f3f4f6;
   border-color: #d1d5db;
   color: #111827;
 }
 
-/* optional: active/pressed feel */
+/* slightly darken icon on hover */
+a[href^="/search-sites-csv"]:hover::before {
+  filter: brightness(0.3);
+}
+
+/* active */
 a[href^="/search-sites-csv"]:active {
   background: #e5e7eb;
   transform: translateY(1px);
