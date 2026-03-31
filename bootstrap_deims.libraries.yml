@@ -4,6 +4,7 @@ framework:
       css/style.css: {}
       css/main_menu.css: {}
       css/search_ui.css: {}
+      css/custom_loader.css: {}
  
 open_sans:
   version: 1.00
