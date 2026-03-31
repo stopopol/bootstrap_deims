@@ -3,6 +3,7 @@ framework:
     theme:
       css/style.css: {}
       css/main_menu.css: {}
+      css/search_ui.css: {}
  
 open_sans:
   version: 1.00
