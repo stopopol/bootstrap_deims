@@ -1,39 +1,14 @@
-/* Base ajax progress container */
-.ajax-progress {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  vertical-align: middle;
-}
-
-/* Hide Drupal's default throbber gif */
+/* Hide the default Drupal throbber image */
 .ajax-progress .throbber {
-  display: none;
+  background-image: none;
 }
 
-/* Modern spinner */
-.ajax-progress::before {
-  content: "";
-  width: 1rem;
-  height: 1rem;
-
-  border: 2px solid #e5e7eb;
-  border-top-color: #6b7280; /* subtle accent */
+/* Replace with a Bootstrap spinner */
+.ajax-progress-throbber .throbber {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.2em solid currentColor;
+  border-right-color: transparent;
   border-radius: 50%;
-
-  animation: ajax-spin 0.6s linear infinite;
-}
-
-/* Optional loading text */
-.ajax-progress::after {
-  content: "Loading…";
-  font-size: 0.85rem;
-  color: #6b7280;
-}
-
-/* Animation */
-@keyframes ajax-spin {
-  to {
-    transform: rotate(360deg);
-  }
+  animation: spinner-border 0.75s linear infinite;
 }
