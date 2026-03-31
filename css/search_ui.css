@@ -1,0 +1,26 @@
+/**
+ * Styling for search interface
+ */
+
+#result_summary_counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #374151;
+
+  background: #f9fafb;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+
+  border: 1px solid #e5e7eb;
+}
+
+#result_summary_counter::before {
+  content: "🔎";
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
