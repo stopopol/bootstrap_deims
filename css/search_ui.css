@@ -148,3 +148,17 @@ a[href^="/search-sites-csv"]::before {
 a[href^="/search-sites-csv"]:hover::before {
   filter: brightness(0.4);
 }
+
+/* Styling for update data information */
+.date-badge {
+  display: inline-block;
+  background: #eef0f5;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #4f5b7c;
+  font-family: 'Source Code Pro', monospace;
+}
