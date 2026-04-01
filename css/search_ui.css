@@ -73,8 +73,8 @@ a[href^="/search-sites-csv"] {
   background-size: contain;
   background-image: url("data:image/svg+xml;utf8,\
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14' fill='none' stroke='%23374151' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'>\
-<path d='M2 7A5 5 0 1 0 3.5 3.2'/>\
-<path d='M2 3.5V7H5.5'/>\
+<path d='M2.5 7a4.5 4.5 0 1 0 1.6-3.4'/>\
+<path d='M2.5 3v3.5h3.5'/>\
 </svg>");
   transition: filter 0.15s ease;
 }
