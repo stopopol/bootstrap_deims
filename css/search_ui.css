@@ -86,7 +86,8 @@ a[href^="/search-sites-csv"]:active {
 }
 
 /* Date Styling */
-.date-badge {
+.view .date-badge,
+.views-row .date-badge {
   display: inline-block;
   background: var(--brand-light);
   border: 1px solid var(--border);
@@ -96,5 +97,4 @@ a[href^="/search-sites-csv"]:active {
   font-weight: 600;
   letter-spacing: 0.04em;
   color: var(--brand);
-  font-family: var(--font-mono);
 }
