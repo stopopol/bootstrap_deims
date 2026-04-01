@@ -15,6 +15,7 @@
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
   border: 1px solid #e5e7eb;
+  margin-right: 0.5rem;
 }
 #result_summary_counter::before {
   content: "🔎";
@@ -36,7 +37,15 @@ a[href^="/search-sites-csv"] {
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
   border: 1px solid #e5e7eb;
-  transition: all 0.15s ease;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  margin-left: 0.5rem;
+}
+
+a[href^="/search-sites-csv"]:hover {
+  background: #4f5b7c;
+  border-color: #333849;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /* SVG icon */
@@ -84,7 +93,7 @@ a[href^="/search-sites-csv"]:active {
   border: 1px solid #e5e7eb;
   border-radius: 6px;
   padding: 2px 8px;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: #4f5b7c;
