@@ -155,7 +155,7 @@ a[href^="/search-sites-csv"]:hover::before {
   border: 1px solid #e5e7eb;
   border-radius: 6px;
   padding: 2px 8px;
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: #4f5b7c;
