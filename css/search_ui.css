@@ -86,15 +86,15 @@ a[href^="/search-sites-csv"]:active {
 }
 
 /* Date Styling */
-.view .date-badge,
-.views-row .date-badge {
+.date-badge {
   display: inline-block;
-  background: var(--brand-light);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
+  background: #eef0f5;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
   padding: 2px 8px;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.04em;
-  color: var(--brand);
+  color: #4f5b7c;
+  font-family: 'Source Code Pro', monospace;
 }
