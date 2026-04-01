@@ -2,134 +2,149 @@
  * Styling for search interface
  */
 
-/* Result summary counter */
-#result_summary_counter {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  font-size: 1.05rem;
-  font-weight: 500;
-  color: #374151;
-  background: #f9fafb;
-  padding: 0.35rem 0.7rem;
-  border-radius: 999px;
-  border: 1px solid #e5e7eb;
-  margin-right: 0.5rem;
-}
-#result_summary_counter::before {
-  content: "🔎";
-  font-size: 1rem;
-  opacity: 0.7;
+/* ─── Shared token base ─────────────────────────────────────── */
+:root {
+  --si-font:       system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --si-size:       1rem;
+  --si-weight:     500;
+  --si-pad:        0.35rem 0.7rem;
+  --si-radius:     999px;
+  --si-color:      #374151;
+  --si-bg:         #f9fafb;
+  --si-border:     #e5e7eb;
+  --si-transition: background 0.15s ease, border-color 0.15s ease,
+                   color 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
+
+  /* blue hover tokens */
+  --si-hover-bg:     #eff6ff;
+  --si-hover-border: #93c5fd;
+  --si-hover-color:  #1e3a5f;
+  --si-hover-ring:   #dbeafe;
+
+  /* blue active tokens */
+  --si-active-bg:     #dbeafe;
+  --si-active-border: #3b82f6;
 }
 
-/* reset filters button */
-.custom-reset-filters-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #92400e;
-  text-decoration: none;
-  background: #fff7ed;
-  padding: 0.35rem 0.75rem;
-  border-radius: 999px;
-  border: 1px solid #fed7aa;
-  transition: background 0.15s ease, border-color 0.15s ease,
-              color 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
-  cursor: pointer;
-}
 
-.custom-reset-filters-btn:hover {
-  background: #ffedd5;
-  border-color: #fb923c;
-  color: #7c2d12;
-  box-shadow: 0 0 0 3px #fed7aa;
-}
-
-.custom-reset-filters-btn:active {
-  background: #fed7aa;
-  border-color: #ea580c;
-  color: #7c2d12;
-  transform: scale(0.97);
-  box-shadow: none;
-}
-
-/* Export button, i.e. link */
+/* ─── Shared pill base ──────────────────────────────────────── */
+#result_summary_counter,
+.custom-reset-filters-btn,
 a[href^="/search-sites-csv"] {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  font-size: 1.05rem;
-  font-weight: 500;
-  color: #374151;
+  font-family: var(--si-font);
+  font-size: var(--si-size);
+  font-weight: var(--si-weight);
+  color: var(--si-color);
   text-decoration: none;
-  background: #f9fafb;
-  padding: 0.35rem 0.7rem;
-  border-radius: 999px;
-  border: 1px solid #e5e7eb;
-  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-  margin-left: 0.5rem;
+  background: var(--si-bg);
+  padding: var(--si-pad);
+  margin: 0 0.25rem;
+  border-radius: var(--si-radius);
+  border: 1px solid var(--si-border);
 }
 
+/* interactive elements get transition + pointer */
+.custom-reset-filters-btn,
+a[href^="/search-sites-csv"] {
+  transition: var(--si-transition);
+  cursor: pointer;
+}
+
+/* lock down all link states for reset button */
+.custom-reset-filters-btn:link,
+.custom-reset-filters-btn:visited,
+.custom-reset-filters-btn:any-link {
+  color: var(--si-color) !important;
+  text-decoration: none !important;
+}
+
+
+/* ─── Reset filters — refresh icon ─────────────────────────── */
+.custom-reset-filters-btn::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14' fill='none' stroke='%23374151' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'>\
+<path d='M2 7A5 5 0 1 0 3.5 3.2'/>\
+<path d='M2 3.5V7H5.5'/>\
+</svg>");
+  transition: filter 0.15s ease;
+}
+
+.custom-reset-filters-btn:hover::before {
+  filter: brightness(0.4);
+}
+
+
+/* ─── Shared hover ──────────────────────────────────────────── */
+.custom-reset-filters-btn:hover,
 a[href^="/search-sites-csv"]:hover {
-  background: #4f5b7c;
-  border-color: #333849;
-  color: #ffffff;
-  text-decoration: none;
+  background: var(--si-hover-bg);
+  border-color: var(--si-hover-border);
+  color: var(--si-hover-color) !important;
+  text-decoration: none !important;
+  box-shadow: 0 0 0 3px var(--si-hover-ring);
 }
 
-/* SVG icon */
+
+/* ─── Shared active ─────────────────────────────────────────── */
+.custom-reset-filters-btn:active,
+a[href^="/search-sites-csv"]:active {
+  background: var(--si-active-bg);
+  border-color: var(--si-active-border);
+  color: var(--si-hover-color);
+  transform: scale(0.97);
+  box-shadow: none;
+}
+
+
+/* ─── Counter — search icon, static ────────────────────────── */
+#result_summary_counter {
+  cursor: default;
+}
+
+#result_summary_counter::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%23374151' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'>\
+<circle cx='9' cy='9' r='5'/>\
+<path d='M15 15l-3-3'/>\
+</svg>");
+}
+
+
+/* ─── Export — download icon ────────────────────────────────── */
 a[href^="/search-sites-csv"]::before {
   content: "";
   width: 1em;
   height: 1em;
   display: inline-block;
   flex-shrink: 0;
-
   background-repeat: no-repeat;
   background-size: contain;
-
-  /* download icon (arrow into tray) */
   background-image: url("data:image/svg+xml;utf8,\
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%23374151' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'>\
 <path d='M10 3v9'/>\
 <path d='M6.5 9.5L10 13l3.5-3.5'/>\
 <path d='M4 15h12'/>\
 </svg>");
+  transition: filter 0.15s ease;
 }
 
-/* hover refinement */
-a[href^="/search-sites-csv"]:hover {
-  background: #f3f4f6;
-  border-color: #d1d5db;
-  color: #111827;
-}
-
-/* slightly darken icon on hover */
 a[href^="/search-sites-csv"]:hover::before {
-  filter: brightness(0.3);
-}
-
-/* active */
-a[href^="/search-sites-csv"]:active {
-  background: #e5e7eb;
-  transform: translateY(1px);
-}
-
-/* Date Styling */
-.date-badge {
-  display: inline-block;
-  background: #eef0f5;
-  border: 1px solid #e5e7eb;
-  border-radius: 6px;
-  padding: 2px 8px;
-  font-size: 1.05rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  color: #4f5b7c;
-  font-family: 'Source Code Pro', monospace;
+  filter: brightness(0.4);
 }
