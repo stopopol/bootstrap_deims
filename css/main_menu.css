@@ -84,17 +84,17 @@ top: auto!important;
 } 
 
 #superfish-main ul {
-	text-decoration: none;
-	border: 1px solid #d1d5da;
-	overflow: visible;
-	-moz-border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid #d1d5da;
+    background-color: #FFFFFF;  /* ← this line is missing */
+    overflow: visible;
+    -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px; 
 }
 
 /* first sub menu */
-
 #superfish-main ul a:hover {
 	color: #535a60;
 }
