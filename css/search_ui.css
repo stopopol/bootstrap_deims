@@ -30,6 +30,7 @@
 /* ─── Shared pill base ──────────────────────────────────────── */
 #result_summary_counter,
 .custom-reset-filters-btn,
+a[href^="/search-elter-sites-csv"],
 a[href^="/search-sites-csv"] {
   display: inline-flex;
   align-items: center;
