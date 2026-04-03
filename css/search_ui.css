@@ -48,7 +48,8 @@ a[href^="/search-sites-csv"] {
 
 /* interactive elements get transition + pointer */
 .custom-reset-filters-btn,
-a[href^="/search-sites-csv"] {
+a[href^="/search-sites-csv"],
+a[href^="/search-elter-sites-csv"] {
   transition: var(--si-transition);
   cursor: pointer;
 }
