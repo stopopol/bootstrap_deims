@@ -99,6 +99,16 @@ top: auto!important;
 	color: #535a60;
 }
 
+/* overlap issue of buttons and menus */
+#superfish-main ul {
+  z-index: 9999;
+  position: relative;
+}
+
+#superfish-main li {
+  position: relative;
+}
+
 /*
  * DEIMS Logo and Home Button
  */
