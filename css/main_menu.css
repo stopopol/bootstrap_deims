@@ -91,7 +91,6 @@ top: auto!important;
     -webkit-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px; 
-	background-color: white;
 }
 
 /* first sub menu */
@@ -119,18 +118,8 @@ top: auto!important;
 	height: 35px;
 }
 
-/**
- *  Footer
- */
-
-#superfish-footer {
-	font-size: 85%;
-	display: flex;
-	justify-content: center;
-}
-
-#superfish-footer a {
-	padding-top: 0px;
-}
-
-
+/*
+#main-standardfront-page:hover {
+	background-color: #DCDCDC;
+	border-radius: 8px;	
+} */
