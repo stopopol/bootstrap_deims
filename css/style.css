@@ -89,6 +89,12 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	margin: auto;
 }
 
+/* have an exception for the max-width on the site search page */
+.full-width-view .main-container .row {
+  max-width: none;
+  left: auto; /* reset the left: 50% too */
+}
+
 .breadcrumb {
 	background: transparent;
 }
