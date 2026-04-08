@@ -91,7 +91,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 
 /* have an exception for the max-width on the site search page */
 .full-width-view .main-container .row {
-  max-width: none;
+  max-width: none !important;
   left: auto; /* reset the left: 50% too */
 }
 
@@ -442,7 +442,6 @@ h1,h2,h3,h4,h5,content, .region-footer {
 
 /*
  * Fix for scrollbars in dynamically loaded paragraphs
- *
  */
 
 .table-responsive {
