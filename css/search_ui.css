@@ -124,7 +124,7 @@ a[href^="/search-sites-csv"]:active {
 
 
 /* ─── Export — download icon ────────────────────────────────── */
-a[href^="/search-elter-sites-csv"]:before, 
+a[href^="/elter-csv"]:before, 
 a[href^="/search-sites-csv"]::before {
   content: "";
   width: 1em;
