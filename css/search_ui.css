@@ -142,7 +142,7 @@ a[href^="/search-sites-csv"]::before {
   transition: filter 0.15s ease;
 }
 
-a[href^="/search-elter-sites-csv"]:hover::before,
+a[href^="/elter-csv"]:hover::before,
 a[href^="/search-sites-csv"]:hover::before {
   filter: brightness(0.4);
 }
