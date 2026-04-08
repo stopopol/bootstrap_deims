@@ -160,3 +160,8 @@ a[href^="/search-sites-csv"]:hover::before {
   color: #4f5b7c;
   font-family: 'Source Code Pro', monospace;
 }
+
+/* bugfix for overflowing site_name dropdown */
+[data-drupal-facet-id="site_name"] {
+  max-width: 100%;
+}
