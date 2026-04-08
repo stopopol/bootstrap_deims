@@ -50,7 +50,7 @@ a[href^="/search-sites-csv"] {
 /* interactive elements get transition + pointer */
 .custom-reset-filters-btn,
 a[href^="/search-sites-csv"],
-a[href^="/search-elter-sites-csv"] {
+a[href^="/elter-csv"] {
   transition: var(--si-transition);
   cursor: pointer;
 }
@@ -84,7 +84,7 @@ a[href^="/search-elter-sites-csv"] {
 
 /* ─── Shared hover ──────────────────────────────────────────── */
 .custom-reset-filters-btn:hover,
-a[href^="/search-elter-sites-csv"]:hover,
+a[href^="/elter-csv"]:hover,
 a[href^="/search-sites-csv"]:hover {
   background: var(--si-hover-bg);
   border-color: var(--si-hover-border);
@@ -96,7 +96,7 @@ a[href^="/search-sites-csv"]:hover {
 
 /* ─── Shared active ─────────────────────────────────────────── */
 .custom-reset-filters-btn:active,
-a[href^="/search-elter-sites-csv"]:active,
+a[href^="/elter-csv"]:active,
 a[href^="/search-sites-csv"]:active {
   background: var(--si-active-bg);
   border-color: var(--si-active-border);
