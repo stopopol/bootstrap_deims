@@ -90,9 +90,9 @@ h1,h2,h3,h4,h5,content, .region-footer {
 }
 
 /* have an exception for the max-width on the site search page */
-.full-width-view .main-container .row {
+.main .row .full-width-view {
+  width: 100%;
   max-width: none;
-  left: auto;
 }
 
 .breadcrumb {
@@ -315,7 +315,6 @@ h1,h2,h3,h4,h5,content, .region-footer {
  * Change color of search button only for the search interface
  */
 
-
 .btn-primary, .btn-info, .btn-default, .btn-success {
     color: #fff;
     background-color: #525b76 !important;
@@ -330,7 +329,6 @@ h1,h2,h3,h4,h5,content, .region-footer {
 .form-inline.form-group button, .form-group.form-wrapper button {
 	margin-right: 10px;
 }
-
 
 /**
  *  Footer
