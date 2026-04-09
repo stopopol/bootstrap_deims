@@ -89,8 +89,9 @@ h1,h2,h3,h4,h5,content, .region-footer {
 	margin: auto;
 }
 
-/* have an exception for the max-width on the site search page */
-body.path-search-sites .main-container .row {
+/* have an exception for the max-width on the site search pages using the path! (i.e. anything after the deims.org/ */
+body.path-search-sites .main-container .row,
+body.path-elter .main-container .row {
   max-width: none;
   width: 100%;
 }
