@@ -90,6 +90,7 @@ h1,h2,h3,h4,h5,content, .region-footer {
 }
 
 /* have an exception for the max-width on the site search pages using the path! (i.e. anything after the deims.org/ */
+body.path-search .main-container .row,
 body.path-search-sites .main-container .row,
 body.path-elter .main-container .row {
   max-width: none;
