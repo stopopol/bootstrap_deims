@@ -336,6 +336,11 @@ body.path-elter .main-container .row {
  *  Footer
  */
 
+.footer {
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+}
+
 .border-none {
 	border: none;
 }
