@@ -736,7 +736,11 @@ a[href^="#mandatory-tab-red-asterisk"] span::after {
   text-align: right;
 }
 
-/* protip for deims.id style */
+/* protip for deims.id style and site stats style */
 .protip-text {
   font-size: 0.85em;
+}
+
+.promo-text {
+  font-size: 1.15em;
 }
