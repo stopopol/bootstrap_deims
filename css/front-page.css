@@ -52,27 +52,53 @@
   flex-wrap: wrap;
 }
 
-/* Base button */
+.btn-sites.landing-page-btn-p {
+  all: unset;
+}
+
+/* Base button — shared geometry and transitions */
 .landing-page-btn {
-  display: inline-block;
-  padding: 10px 18px;
-  border-radius: var(--landing-page-radius-md);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 999px;           /* pill — modern, friendly */
   font-size: 13px;
   font-weight: 500;
   text-decoration: none;
-  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.15s ease, color 0.15s ease,
+              border-color 0.15s ease, transform 0.15s ease;
+}
+.landing-page-btn:hover {
+  transform: translateY(-1px);
+}
+.landing-page-btn:active {
+  transform: translateY(0);
 }
 
-/* Primary button (refined) */
+/* Primary button */
 .landing-page-btn-p {
+  background: var(--landing-page-teal);
+  color: var(--landing-page-teal-light);
+  border-color: var(--landing-page-teal);
+}
+.landing-page-btn-p:hover {
+  background: var(--landing-page-teal-dark);
+  border-color: var(--landing-page-teal-dark);
+  color: var(--landing-page-teal-light);
+}
+
+/* Secondary — outlined */
+.landing-page-btn-s {
+  background: transparent;
+  color: var(--landing-page-teal);
+  border-color: var(--landing-page-teal);
+}
+.landing-page-btn-s:hover {
   background: var(--landing-page-teal-light);
   color: var(--landing-page-teal-dark);
-  border: 1px solid var(--landing-page-border);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-}
-
-.landing-page-btn-p:hover {
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .btn-sites {
@@ -85,21 +111,25 @@
 
   font-size: 14px;
   font-weight: 500;
+
   color: #ffffff;
   text-decoration: none;
 
   background: linear-gradient(90deg, #3bb7e6 0%, #2f93d6 100%);
+  border: none;
+
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
 
-  transition: all 0.2s ease;
-  position: relative;
-  overflow: hidden;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.btn-sites:hover {
+a.btn-sites:hover,
+a.btn-sites:focus {
+  background: linear-gradient(90deg, #2faedb 0%, #2a86c4 100%) !important;
+  color: #fff !important;
+
   transform: translateY(-1px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
-  background: linear-gradient(90deg, #2faedb 0%, #2a86c4 100%);
 }
 
 .network-btn {
