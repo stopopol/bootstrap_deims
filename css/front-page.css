@@ -65,16 +65,20 @@
   border-radius: var(--landing-page-radius-lg);
   font-size: 13px;
   font-weight: 500;
-  color: white;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
   border: 1px solid transparent;
   transition: background 0.2s ease, box-shadow 0.2s ease;
 }
 
+.landing-page-btn:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
 .btn-sites {
   background: #2e8fd4;
-  color: #ffffff;
   border-color: #2e8fd4;
 }
 .btn-sites:hover {
@@ -85,7 +89,6 @@
 
 .btn-networks {
   background: #e17a47;
-  color: #ffffff;
   border-color: #e17a47;
 }
 .btn-networks:hover {
