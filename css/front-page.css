@@ -139,6 +139,10 @@
   box-shadow: none;
 }
 
+#block-quickstart {
+	margin-bottom: 25px;
+}
+
 body.path-frontpage .main-container .row {
   max-width: 1500px;
   width: 100%;
