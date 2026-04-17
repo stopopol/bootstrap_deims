@@ -17,32 +17,32 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1, h1 a {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: -0.04em;
 }
 
 h2, h2 a {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.75rem;
   letter-spacing: -0.03em;
 }
 
 h3, h3 a {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.08em; /* uppercase needs positive tracking */
 }
 
 h4, h4 a {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
   letter-spacing: -0.01em;
 }
 
 h5, h5 a {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -50,7 +50,7 @@ h5, h5 a {
 }
 
 h6, h6 a {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
