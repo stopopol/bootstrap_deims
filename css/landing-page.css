@@ -74,3 +74,85 @@
 .landing-page-btn-s:hover {
   background: var(--landing-page-bg2);
 }
+
+:root {
+  --landing-page-bg: #ffffff;
+  --landing-page-bg2: #f6f6f4;
+  --landing-page-text: #1a1a1a;
+  --landing-page-text2: #6b6b68;
+  --landing-page-border: rgba(0,0,0,0.1);
+  --landing-page-border2: rgba(0,0,0,0.18);
+
+  --landing-page-teal: #1a8fa0;
+  --landing-page-teal-light: #ddf2f5;
+  --landing-page-teal-dark: #0f6e7a;
+
+  --landing-page-radius-md: 8px;
+  --landing-page-radius-lg: 12px;
+}
+
+/* Stats bar */
+.stats-bar {
+  display: flex;
+  border: 1px solid var(--landing-page-border);
+  border-radius: var(--landing-page-radius-lg);
+  overflow: hidden;
+  background: var(--landing-page-bg);
+}
+.stat-item {
+  flex: 1;
+  padding: 1rem 1.25rem;
+}
+.stat-item + .stat-item {
+  border-left: 1px solid var(--landing-page-border);
+}
+.stat-num {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--landing-page-text);
+}
+.stat-label {
+  font-size: 12px;
+  color: var(--landing-page-text2);
+  margin-top: 2px;
+}
+
+/* Buttons */
+.hero-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.landing-page-btn {
+  display: inline-block;
+  padding: 9px 20px;
+  border-radius: var(--landing-page-radius-md);
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.landing-page-btn-p {
+  background: var(--landing-page-teal);
+  color: var(--landing-page-teal-light);
+  border: none;
+  font-weight: 500;
+}
+.landing-page-btn-p:hover {
+  background: var(--landing-page-teal-dark);
+}
+
+.landing-page-btn-s {
+  background: var(--landing-page-bg);
+  color: var(--landing-page-text);
+  border: 1px solid var(--landing-page-border2);
+}
+.landing-page-btn-s:hover {
+  background: var(--landing-page-bg2);
+}
+
+/* turn off standard block styling for stats block */
+#block-bootstrap-deims-views-block-overview-statistics-block-block-1 {
+  border: none;
+  box-shadow: none; /* Bootstrap often uses this instead of border */
+}
