@@ -13,11 +13,6 @@
   --landing-page-radius-md: 8px;
   --landing-page-radius-lg: 12px;
 }
-/* limit max-width for front page */
-body.path-frontpage .main-container .row {
-  max-width: 1500px;
-  width: 100%;
-}
 
 /* Stats bar */
 .stats-bar {
@@ -80,8 +75,71 @@ body.path-frontpage .main-container .row {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
+.btn-sites {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px 16px;
+  border-radius: 999px;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+
+  background: linear-gradient(90deg, #3bb7e6 0%, #2f93d6 100%);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-sites:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  background: linear-gradient(90deg, #2faedb 0%, #2a86c4 100%);
+}
+
+.network-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px 16px;
+  border-radius: 999px;
+
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+
+  background: rgba(225, 122, 71, 0.12);
+  color: #e17a47;
+
+  border: 1px solid rgba(225, 122, 71, 0.25);
+
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.network-btn:hover {
+  background: #e17a47;
+  color: #ffffff;
+
+  border-color: #e17a47;
+
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(225, 122, 71, 0.25);
+}
+
 /* Remove Drupal block default styling */
 #block-bootstrap-deims-views-block-overview-statistics-block-block-1 {
   border: none;
   box-shadow: none;
+}
+
+body.path-frontpage .main-container .row {
+  max-width: 1500px;
+  width: 100%;
 }
