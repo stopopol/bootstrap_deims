@@ -17,6 +17,7 @@
 /* Stats bar */
 .stats-bar {
   display: flex;
+  margin: 20px;
   border: 1px solid var(--landing-page-border);
   border-radius: var(--landing-page-radius-lg);
   overflow: hidden;
