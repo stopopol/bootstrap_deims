@@ -78,7 +78,6 @@
   transform: translateY(0);
 }
 
-
 .btn-sites {
   color: #ffffff;
   background: linear-gradient(90deg, #3bb7e6 0%, #2f93d6 100%);
@@ -86,14 +85,14 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
 }
 
-.network-btn {
+.networks-btn {
   background: rgba(225, 122, 71, 0.12);
   color: #e17a47;
   transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
 }
 
-.network-btn:hover {
+.networks-btn:hover {
   background: #e17a47;
   color: #ffffff;
   border-color: #e17a47;
