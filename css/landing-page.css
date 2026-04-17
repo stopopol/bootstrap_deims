@@ -4,8 +4,8 @@
 :root {
   --bg: #ffffff;
   --bg2: #f6f6f4;
-  --text: #1a1a1a;
-  --text2: #6b6b68;
+  --landing-page-text: #1a1a1a;
+  --landing-page-text2: #6b6b68;
   --border: rgba(0,0,0,0.1);
   --border2: rgba(0,0,0,0.18);
   --teal: #1a8fa0;
@@ -25,8 +25,8 @@
 }
 .stat-item { flex: 1; padding: 1rem 1.25rem; border-right: 0.5px solid var(--border); }
 .stat-item:last-child { border-right: none; }
-.stat-num { font-size: 22px; font-weight: 500; color: var(--text); }
-.stat-label { font-size: 11px; color: var(--text2); margin-top: 2px; }
+.stat-num { font-size: 22px; font-weight: 500; color: var(--landing-page-text); }
+.stat-label { font-size: 11px; color: var(--landing-page-text2); margin-top: 2px; }
 
 /* Buttons */
 .hero-actions { display: flex; gap: 10px; }
@@ -37,7 +37,7 @@
 }
 .btn-p:hover { background: var(--teal-dark); }
 .btn-s {
-  padding: 9px 20px; background: var(--bg); color: var(--text);
+  padding: 9px 20px; background: var(--bg); color: var(--landing-page-text);
   border: 0.5px solid var(--border2); border-radius: var(--radius-md);
   font-size: 13px; cursor: pointer;
 }
