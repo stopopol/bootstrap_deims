@@ -13,6 +13,11 @@
   --landing-page-radius-md: 8px;
   --landing-page-radius-lg: 12px;
 }
+/* limit max-width for front page */
+body.path-frontpage .main-container .row {
+  max-width: 1500px;
+  width: 100%;
+}
 
 /* Stats bar */
 .stats-bar {
