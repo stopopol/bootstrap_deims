@@ -62,42 +62,35 @@
   align-items: center;
   gap: 8px;
   padding: 10px 20px;
-  border-radius: 999px;           /* pill — modern, friendly */
+  border-radius: 999px;
   font-size: 13px;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
   border: 1px solid transparent;
-  transition: background 0.15s ease, color 0.15s ease,
-              border-color 0.15s ease, transform 0.15s ease;
-}
-.landing-page-btn:hover {
-  transform: translateY(-1px);
-}
-.landing-page-btn:active {
-  transform: translateY(0);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
 }
 
 .btn-sites {
+  background: #2e8fd4;
   color: #ffffff;
-  background: linear-gradient(90deg, #3bb7e6 0%, #2f93d6 100%);
-  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  border-color: #2e8fd4;
+}
+.btn-sites:hover {
+  background: #2479b8;
+  border-color: #2479b8;
+  box-shadow: 0 0 0 4px rgba(46, 143, 212, 0.18);
 }
 
 .btn-networks {
-  background: rgba(225, 122, 71, 0.12);
-  color: #e17a47;
-  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
-}
-
-.btn-networks:hover {
-  background: #e17a47;
+  background: #e8813a;
   color: #ffffff;
-  border-color: #e17a47;
-  transform: translateY(-1px);
-  box-shadow: 0 3px 8px rgba(225, 122, 71, 0.25);
+  border-color: #e8813a;
+}
+.btn-networks:hover {
+  background: #d0712e;
+  border-color: #d0712e;
+  box-shadow: 0 0 0 4px rgba(232, 129, 58, 0.18);
 }
 
 /* Remove Drupal block default styling */
