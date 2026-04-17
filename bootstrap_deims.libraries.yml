@@ -5,7 +5,7 @@ framework:
       css/main_menu.css: {}
       css/search_ui.css: {}
       css/loading-spinner.css: {}
-      css/landing-page.css: {}
+      css/front-page.css: {}
 
 open_sans:
   version: 1.00
