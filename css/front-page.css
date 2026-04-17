@@ -12,6 +12,7 @@
 
   --landing-page-radius-md: 8px;
   --landing-page-radius-lg: 12px;
+  --general-site-color: #36a9e0;
 }
 
 /* Stats bar */
@@ -78,7 +79,7 @@
 }
 
 .btn-sites {
-  background: #36a9e0;
+  background: var(--general-site-color);
   border-color: #2e8fd4;
 }
 .btn-sites:hover {
@@ -110,4 +111,8 @@
 body.path-frontpage .main-container .row {
   max-width: 1500px;
   width: 100%;
+}
+
+.highlight-sites {
+  color: var(--general-site-color);
 }
