@@ -279,27 +279,6 @@ body.path-elter .main-container .row {
 	border: 0px;
 }
 
-/**
- * Long Icons Hover Effects
- */
-
-.hover_container {
-	position: relative;
-	width: 150px;
-}
-
-.hover_image {
-  opacity: 1;
-  display: block;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.hover_container:hover .hover_image {
-  opacity: 0.3;
-}
-
 /*
  * Pager 
  */
@@ -371,16 +350,6 @@ body.path-elter .main-container .row {
 .latest_updates_block img {
 	margin-right: 1em;
 } 
-
-/**
- *  Tips Block; remove border
- */
- 
-#block-tips {
-	border: none;
-	text-align: right;
-}
-
 
 /**
  *  Node Display
