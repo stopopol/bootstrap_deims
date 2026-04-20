@@ -204,8 +204,12 @@ body.path-elter .main-container .row {
 }
 
 .block-facets {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
 	margin-bottom: 10px;
 }
+
 
 .block-title {
 	border-radius: 8px 8px 0px 0px !important;
@@ -241,12 +245,6 @@ body.path-elter .main-container .row {
  *
  * item-list__checkbox js-facets-widget
  */
- 
-.block-facets {
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-}
 
 .block-facets h3 {
     background-color: #525b76;
