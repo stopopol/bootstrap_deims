@@ -114,6 +114,34 @@
 }
 
 /**
+ *  Block Settings
+ */
+
+#block-quickstart .field, .latest_updates_block .views-row {
+	padding: 0.25em;
+}
+
+/**
+ *  Latest Updates Block
+ */
+
+.latest_updates_block .views-row a {
+	font-weight:normal;
+}
+
+.latest_updates_block .view-content {
+	padding-left: 10px;
+}
+
+.latest_updates_block img {
+	margin-right: 1em;
+} 
+
+#block-quickstart, #block-bootstrap-deims-views-block-latest-updates-block-1 {
+	background: #FFF;
+}
+
+/**
  *  Landing-Page Notices; remove border
  */
  
