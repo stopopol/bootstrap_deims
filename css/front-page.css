@@ -118,6 +118,11 @@ body.path-frontpage .main-container .row {
   width: 100%;
 }
 
-.highlight-sites {
-  color: var(--general-site-color);
+/**
+ *  Landing-Page Notices; remove border
+ */
+ 
+#block-bootstrap-deims-landingpagenotices {
+	border: none;
+	text-align: right;
 }
