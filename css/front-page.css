@@ -73,6 +73,11 @@
   transition: background 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* hard-code the text-color */
+#search-sites-button, #search-elter-button, #search-networks-button {
+	color: white;
+}
+
 .landing-page-btn:visited {
   color: #fff;
   text-decoration: none;
