@@ -150,7 +150,7 @@
  *  Landing-Page Notices; remove border
  */
  
-#block-bootstrap-deims-landingpagenotices, #block-bootstrap-deims-views-block-featured-site-block-1, block-bootstrap-deims-views-block-latest-updates-block-1 {
+#block-bootstrap-deims-landingpagenotices, #block-bootstrap-deims-views-block-featured-site-block-1, #block-bootstrap-deims-views-block-latest-updates-block-1 {
 	border: none;
 }
 
