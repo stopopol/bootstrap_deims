@@ -269,4 +269,5 @@
   background: var(--landing-page-green-light);
   color: var(--landing-page-green-dark) !important;
   border-radius: 20px !important;
+  width: fit-content;
 }
