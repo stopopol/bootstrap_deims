@@ -195,7 +195,7 @@
   .meta-lbl { font-size: 10px; color: var(--landing-page-text3); text-transform: uppercase; letter-spacing: 0.06em; }
   .meta-val { font-size: 13px; font-weight: 500; margin-top: 2px; color: var(--landing-page-text); }
   .sotd-img {
-    border-left: 0.5px solid var(--border);
+    border-left: 0.5px solid var(--landing-page-border);
     display: flex; flex-direction: column; 
 	justify-content: center; /* horizontal */
 	align-items: center;     /* vertical */
