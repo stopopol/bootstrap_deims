@@ -267,6 +267,6 @@
   font-weight: 500;
   padding: 3px 10px;
   background: var(--landing-page-green-light);
-  color: var(--landing-page-green-dark);
+  color: var(--landing-page-green-dark) !important;
   border-radius: 20px;
 }
