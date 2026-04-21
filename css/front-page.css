@@ -257,3 +257,16 @@
   .ql-t { font-size: 13px; font-weight: 500; color: var(--landing-page-text); }
   .ql-s { font-size: 11px; color: var(--landing-page-text2); margin-top: 1px; }
   .ql-arr { font-size: 13px; color: var(--landing-page-text3); margin-left: auto; }
+
+
+/*
+ * Latest Updates / Help Heading Override
+ */
+#block-bootstrap-deims-views-block-latest-updates-block-1 ~ h2 {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 10px;
+  background: var(--landing-page-green-light);
+  color: var(--landing-page-green-dark);
+  border-radius: 20px;
+}
