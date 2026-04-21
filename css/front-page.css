@@ -148,3 +148,104 @@
 #block-bootstrap-deims-landingpagenotices, #block-bootstrap-deims-views-block-featured-site-block-1 {
 	border: none;
 }
+
+/* 
+ * Spotlight on/Site of the day
+ */
+
+/* Site of the day */
+  .sotd {
+    background: var(--bg);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin: 2rem 0;
+  }
+  .sotd-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.85rem 1.25rem;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .sotd-badge {
+    font-size: 11px; font-weight: 500; padding: 3px 10px;
+    background: var(--green-light); color: var(--green-dark);
+    border-radius: 20px;
+  }
+  .sotd-date { font-size: 12px; color: var(--text2); margin-left: 10px; }
+  .sotd-link { font-size: 12px; color: var(--green); text-decoration: none; cursor: pointer; }
+  .sotd-body { display: grid; grid-template-columns: 1fr 280px; }
+  .sotd-info { padding: 1.25rem 1.5rem; }
+  .sotd-name { font-size: 18px; font-weight: 500; margin-bottom: 3px; color: var(--text); }
+  .sotd-loc { font-size: 12px; color: var(--text2); margin-bottom: 1rem; }
+  .sotd-desc { font-size: 13px; color: var(--text2); line-height: 1.65; margin-bottom: 1.25rem; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1.25rem; }
+  .chip {
+    font-size: 11px; padding: 3px 10px; border-radius: 20px;
+    background: var(--bg2); color: var(--text2);
+    border: 0.5px solid var(--border);
+  }
+  .chip.eco { background: #EAF3DE; color: #3B6D11; border-color: #C0DD97; }
+  .meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .meta-cell { padding: 8px 10px; background: var(--bg2); border-radius: var(--radius-md); }
+  .meta-lbl { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: 0.06em; }
+  .meta-val { font-size: 13px; font-weight: 500; margin-top: 2px; color: var(--text); }
+  .sotd-img {
+    border-left: 0.5px solid var(--border);
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  .sotd-img svg { flex: 1; display: block; }
+  .img-caption {
+    padding: 7px 12px;
+    border-top: 0.5px solid var(--border);
+    font-size: 11px; color: var(--text3);
+    background: var(--bg);
+  }
+
+/* currently unused structure css */
+
+  /* Two col */
+  .two-col {
+    display: grid;
+    grid-template-columns: minmax(0,1.5fr) minmax(0,1fr);
+    gap: 1.5rem; margin-top: 0.5rem;
+  }
+  .recent-card {
+    background: var(--bg);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-lg); overflow: hidden;
+  }
+  .ri {
+    display: flex; align-items: center; gap: 12px;
+    padding: 0.85rem 1rem;
+    border-bottom: 0.5px solid var(--border);
+    cursor: pointer;
+  }
+  .ri:last-child { border-bottom: none; }
+  .ri:hover { background: var(--bg2); }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
+  .ri-name { font-size: 13px; font-weight: 500; flex: 1; color: var(--text); }
+  .ri-country { font-size: 11px; color: var(--text2); }
+  .ri-date { font-size: 11px; color: var(--text3); }
+
+  .ql {
+    background: var(--bg);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius-lg); overflow: hidden;
+  }
+  .ql-item {
+    display: flex; align-items: center; gap: 12px;
+    padding: 1rem 1.25rem;
+    border-bottom: 0.5px solid var(--border);
+    cursor: pointer; text-decoration: none;
+  }
+  .ql-item:last-child { border-bottom: none; }
+  .ql-item:hover { background: var(--bg2); }
+  .ql-icon {
+    width: 32px; height: 32px;
+    border-radius: var(--radius-md);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .ql-t { font-size: 13px; font-weight: 500; color: var(--text); }
+  .ql-s { font-size: 11px; color: var(--text2); margin-top: 1px; }
+  .ql-arr { font-size: 13px; color: var(--text3); margin-left: auto; }
