@@ -23,6 +23,7 @@
 /* intro to deims / Hero */
   .hero {
     display: grid;
+	padding-bottom: 20px;
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
     align-items: center;
