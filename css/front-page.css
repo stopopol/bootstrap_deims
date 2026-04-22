@@ -20,6 +20,11 @@
 	
 }
 
+/ *  */
+body.path-frontpage .main-container .row {
+  max-width: 1200px;
+}
+
 /* intro to deims / Hero */
   .hero {
     display: grid;
