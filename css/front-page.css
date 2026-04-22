@@ -20,7 +20,7 @@
 	
 }
 
-/ *  */
+/ * limit page container width */
 body.path-frontpage .main-container .row {
   max-width: 1200px;
 }
