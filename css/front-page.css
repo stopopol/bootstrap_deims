@@ -115,6 +115,7 @@ body.path-frontpage .main-container .row {
   background: var(--general-site-color);
   border-color: #2e8fd4;
 }
+
 .btn-sites:hover {
   background: #2479b8;
   border-color: #2479b8;
@@ -125,6 +126,7 @@ body.path-frontpage .main-container .row {
   background: #e17a47;
   border-color: #e17a47;
 }
+
 .btn-networks:hover {
   background: #d0712e;
   border-color: #d0712e;
@@ -232,8 +234,6 @@ body.path-frontpage .main-container .row {
     background: var(--landing-page-bg);
   }
 
-/* currently unused structure css */
-
   /* Two col */
   .two-col {
     display: grid;
@@ -285,6 +285,11 @@ body.path-frontpage .main-container .row {
 /*
  * Latest Updates / Help Heading Override
  */
+
+#block-bootstrap-deims-views-block-latest-updates-block-1 {
+	background: none;
+}
+
 #block-bootstrap-deims-views-block-latest-updates-block-1 .block-title {
   font-size: 11px;
   font-weight: 500;
