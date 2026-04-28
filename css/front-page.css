@@ -1,6 +1,7 @@
 :root {
   --landing-page-bg: #ffffff;
   --landing-page-bg2: #f6f6f4;
+  --landing-page-bg3: #f0eeeb;
   --landing-page-text: #1a1a1a;
   --landing-page-text2: #6b6b68;
   --landing-page-border: rgba(0,0,0,0.1);
@@ -27,7 +28,7 @@ body.path-frontpage .main-container .row {
 
 /* change background of main container only on the frontpage */
 body.path-frontpage {
-    background-color: #F5F5F5;
+    background-color: --landing-page-bg3;
 }
 
 /* intro to deims / Hero */
