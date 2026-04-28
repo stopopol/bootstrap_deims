@@ -20,9 +20,14 @@
 	
 }
 
-/ * limit page container width */
+/* limit page container width */
 body.path-frontpage .main-container .row {
   max-width: 1300px !important;
+}
+
+/* change background of main container only on the frontpage */
+body.path-frontpage {
+    background-color: #F5F5F5;
 }
 
 /* intro to deims / Hero */
