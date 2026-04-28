@@ -314,9 +314,9 @@ body.path-elter .main-container .row {
  */
 
 .footer {
-	margin-top: 20px !important;
-	padding-top: 15px !important;
-	padding-bottom: 15px !important;
+    margin-top: 0 !important;
+    padding-top: 35px !important;
+    padding-bottom: 15px !important;
 }
 
 .border-none {
