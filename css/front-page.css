@@ -28,7 +28,7 @@ body.path-frontpage .main-container .row {
 
 /* change background of main container only on the frontpage */
 body.path-frontpage {
-    background-color: --landing-page-bg3;
+    background-color: var(--landing-page-bg3);
 }
 
 /* intro to deims / Hero */
