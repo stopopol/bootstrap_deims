@@ -318,6 +318,7 @@ body.path-elter .main-container .row {
     padding-top: 15px !important;
     padding-bottom: 15px !important;
 	background: #FFF;
+	border-top: 1px solid #d1d5da;
 }
 
 .main-container {
