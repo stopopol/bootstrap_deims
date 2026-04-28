@@ -7,8 +7,15 @@
     border-color: transparent;
     border-bottom: solid #d1d5da 1px;
     margin-top: 0;
-	padding-top: 15px;
-	padding-bottom: 10px;
+}
+
+/* i need to change the base setting for the body so the navbar doesn't have the colour issues on the frontpage */
+@media screen and (min-width: 768px) {
+    body.path-frontpage #navbar {
+		margin-top: 0;
+        padding-top: 15px;
+		padding-bottom: 10px;
+    }
 }
 
 #superfish-main {
