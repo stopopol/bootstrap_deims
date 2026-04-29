@@ -31,6 +31,11 @@ body.path-frontpage {
     background-color: var(--landing-page-bg3);
 }
 
+/* ugly hack to hide the actual h1 heading (and later replace it with my custom one */
+.path-frontpage h1.page-title {
+  display: none;
+}
+
 /* intro to deims / Hero */
   .hero {
     display: grid;
