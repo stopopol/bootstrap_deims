@@ -80,7 +80,7 @@ body.path-frontpage {
 
 .stat-item {
   flex: 1;
-  padding: 1.4rem 1.25rem;
+  padding: 1.5rem 1.25rem;
 }
 
 .stat-item + .stat-item {
