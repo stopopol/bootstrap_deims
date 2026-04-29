@@ -32,7 +32,7 @@ body.path-frontpage {
 }
 
 /* ugly hack to hide the actual h1 heading (and later replace it with my custom one */
-.path-frontpage h1.page-title {
+.path-frontpage h1.page-header {
   display: none;
 }
 
@@ -47,7 +47,7 @@ body.path-frontpage {
 
 .custom-h1-heading em {
   font-style: normal;
-  color: var(--landing-page-teal);
+  color: var(--landing-page-green-light);
 }
 
 /* intro to deims / Hero */
