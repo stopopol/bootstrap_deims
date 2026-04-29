@@ -36,6 +36,20 @@ body.path-frontpage {
   display: none;
 }
 
+/* custom style for pseudo h1 heading */
+.custom-h1-heading {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+  color: var(--landing-page-text);
+}
+
+.custom-h1-heading em {
+  font-style: normal;
+  color: var(--landing-page-teal);
+}
+
 /* intro to deims / Hero */
   .hero {
     display: grid;
