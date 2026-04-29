@@ -292,10 +292,14 @@ body.path-frontpage {
     display: flex; align-items: center; gap: 12px;
     padding: 1rem 1.25rem;
     border-bottom: 0.5px solid var(--landing-page-border);
-    cursor: pointer; text-decoration: none;
+    cursor: pointer; 
+	text-decoration: none;
   }
   .ql-item:last-child { border-bottom: none; }
-  .ql-item:hover { background: var(--landing-page-bg2); }
+  .ql-item:hover {
+	  background: var(--landing-page-bg2);
+	  text-decoration: none;
+  }
   .ql-icon {
     width: 32px; height: 32px;
     border-radius: var(--landing-page-radius-md);
