@@ -137,25 +137,25 @@ body.path-frontpage {
 }
 
 .btn-sites {
-  background: var(--general-site-color);
-  border-color: #2e8fd4;
+  background: var(--landing-page-green);
+  border-color: var(--landing-page-green-dark);
 }
 
 .btn-sites:hover {
-  background: #2479b8;
-  border-color: #2479b8;
-  box-shadow: 0 0 0 4px rgba(46, 143, 212, 0.18);
+  background: var(--landing-page-green-dark);
+  border-color: var(--landing-page-green-dark);
+  box-shadow: 0 0 0 4px rgba(29, 158, 117, 0.18);
 }
 
 .btn-networks {
-  background: #e17a47;
-  border-color: #e17a47;
+  background: #2ab89a;
+  border-color: #22a08a;
 }
 
 .btn-networks:hover {
-  background: #d0712e;
-  border-color: #d0712e;
-  box-shadow: 0 0 0 4px rgba(232, 129, 58, 0.18);
+  background: #1a9580;
+  border-color: #1a9580;
+  box-shadow: 0 0 0 4px rgba(42, 184, 154, 0.18);
 }
 
 /* Remove Drupal block default styling */
