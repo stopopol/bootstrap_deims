@@ -147,17 +147,6 @@ body.path-frontpage {
   box-shadow: 0 0 0 4px rgba(29, 158, 117, 0.18);
 }
 
-.btn-networks {
-  background: #2ab89a;
-  border-color: #22a08a;
-}
-
-.btn-networks:hover {
-  background: #1a9580;
-  border-color: #1a9580;
-  box-shadow: 0 0 0 4px rgba(42, 184, 154, 0.18);
-}
-
 /* Remove Drupal block default styling */
 #block-bootstrap-deims-views-block-overview-statistics-block-block-1 {
   border: none;
