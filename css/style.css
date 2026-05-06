@@ -210,7 +210,6 @@ body.path-elter .main-container .row {
 	margin-bottom: 10px;
 }
 
-
 .block-title {
 	border-radius: 8px 8px 0px 0px !important;
 	background-color: #525b76;
@@ -264,7 +263,6 @@ body.path-elter .main-container .row {
 	font-weight: 400;
 }
 
-
 .facets-soft-limit-link {
 	padding-left: 20px;
 }
@@ -280,6 +278,7 @@ body.path-elter .main-container .row {
 /*
  * Pager 
  */
+
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
     z-index: 3;
     color: #fff;
@@ -287,9 +286,11 @@ body.path-elter .main-container .row {
     background-color: #525b76;
     border-color: #58782d;
 }
+
 .pagination>li>a, .pagination>li>span {
     color: #525b76;
 }
+
 /**
  * Change color of search button only for the search interface
  */
@@ -312,6 +313,7 @@ body.path-elter .main-container .row {
 /**
  * Change image slideshow button to use same colour as in other places
  */
+
 .slick-arrow::before {
     color: var(--landing-page-green) !important;
 }
@@ -368,7 +370,6 @@ body.path-elter .main-container .row {
 
 .panel-default {
 	border: 1px solid #ccc;
-	border-radius: var(--landing-page-radius-lg);
 }
 
 .panel-title {
