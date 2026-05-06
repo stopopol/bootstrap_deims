@@ -21,10 +21,15 @@
 	
 }
 
+/* site map styling */
 /* Leaflet attribution styling */
 .leaflet-control-attribution a[href*="openstreetmap"] img,
 .leaflet-attribution-flag {
   display: none !important;
+}
+#leaflet-map-view-front-page-map-block-1 {
+  border: 1px solid var(--landing-page-border);
+  border-radius: var(--landing-page-radius-lg);
 }
 
 /* limit page container width */
