@@ -310,6 +310,13 @@ body.path-elter .main-container .row {
 }
 
 /**
+ * Change image slideshow button to use same colour as in other places
+ */
+.slick-arrow::before {
+    color: var(--landing-page-green) !important;
+}
+
+/**
  *  Footer
  */
 
