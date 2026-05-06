@@ -30,7 +30,7 @@
 }
 
 #leaflet-map-view-front-page-map-block-1 {
-  border: 1px solid var(--landing-page-border);
+  border: 0.5px solid var(--landing-page-border);
   border-radius: var(--landing-page-radius-lg);
 }
 
