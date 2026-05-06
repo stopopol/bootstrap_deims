@@ -37,21 +37,19 @@
 /* popup styling */
 /* ── Popup Wrapper (the bubble) ── */
 .leaflet-popup-content-wrapper {
-  background: rgba(15, 15, 20, 0.88);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.3),
-    0 2px 8px rgba(0, 0, 0, 0.2);
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    0 2px 8px rgba(0, 0, 0, 0.06);
   padding: 0;
-  color: #f0f0f0;
+  color: #2c2c2c;
 }
 
-/* ── The Arrow/Tip ── */
+/* ── Arrow/Tip ── */
 .leaflet-popup-tip-container .leaflet-popup-tip {
-  background: rgba(15, 15, 20, 0.88);
+  background: #ffffff;
   box-shadow: none;
 }
 
@@ -60,20 +58,20 @@
   font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
   font-size: 13px;
   line-height: 1.6;
-  color: rgba(255, 255, 255, 0.75);
+  color: #555;
   margin: 14px 18px;
 }
 
 /* Close button */
 .leaflet-popup-close-button {
-  color: rgba(255, 255, 255, 0.4) !important;
+  color: #aaa !important;
   font-size: 18px !important;
   top: 8px !important;
   right: 10px !important;
   transition: color 0.15s ease;
 }
 .leaflet-popup-close-button:hover {
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: #0f6e56 !important;
 }
 
 /* ── Content Typography ── */
@@ -83,15 +81,26 @@
 .leaflet-popup-content .popup-title {
   font-size: 15px;
   font-weight: 600;
-  color: #ffffff;
+  color: #1a1a1a;
   margin: 0 0 6px 0;
   letter-spacing: 0.01em;
+}
+
+/* Teal accent bar under title */
+.leaflet-popup-content .popup-title::after {
+  content: '';
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: #1d9e75;
+  border-radius: 2px;
+  margin-top: 5px;
 }
 
 /* Divider */
 .leaflet-popup-content hr {
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid #e8eef0;
   margin: 10px 0;
 }
 
@@ -101,11 +110,11 @@
   justify-content: space-between;
   gap: 16px;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.45);
+  color: #999;
   margin-top: 4px;
 }
 .leaflet-popup-content .popup-row span:last-child {
-  color: rgba(255, 255, 255, 0.9);
+  color: #2c2c2c;
   font-weight: 500;
 }
 
@@ -116,8 +125,8 @@
   font-weight: 500;
   padding: 2px 8px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.1);
-  color: rgba(255, 255, 255, 0.7);
+  background: #e1f5ee;
+  color: #0f6e56;
   margin-top: 8px;
 }
 
