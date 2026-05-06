@@ -22,15 +22,19 @@
 }
 
 /* site map styling */
+
 /* Leaflet attribution styling */
 .leaflet-control-attribution a[href*="openstreetmap"] img,
 .leaflet-attribution-flag {
   display: none !important;
 }
+
 #leaflet-map-view-front-page-map-block-1 {
   border: 1px solid var(--landing-page-border);
   border-radius: var(--landing-page-radius-lg);
 }
+
+.leaflet-popup-content { font-size: 13px; font-weight: 500; margin-top: 2px; color: var(--landing-page-text); }
 
 /* limit page container width */
 body.path-frontpage .main-container .row {
@@ -62,22 +66,23 @@ body.path-frontpage {
 }
 
 /* intro to deims / Hero */
-  .hero {
+.hero {
     display: grid;
 	padding-bottom: 20px;
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
     align-items: center;
-  }
-  .hero-eyebrow {
+}
+
+.hero-eyebrow {
     font-size: 11px; font-weight: 500;
     letter-spacing: 0.08em; text-transform: uppercase;
     color: var(--green); margin-bottom: 0.75rem;
-  }
-  .hero h1 { font-size: 34px; font-weight: 500; line-height: 1.25; margin-bottom: 1rem; color: var(--text); }
-  .hero h1 em { font-style: normal; color: var(--green); }
-  .hero-sub { font-size: 14px; color: var(--text2); line-height: 1.7; margin-bottom: 1.5rem; }
-  .hero-actions { display: flex; gap: 10px; }
+}
+.hero h1 { font-size: 34px; font-weight: 500; line-height: 1.25; margin-bottom: 1rem; color: var(--text); }
+.hero h1 em { font-style: normal; color: var(--green); }
+.hero-sub { font-size: 14px; color: var(--text2); line-height: 1.7; margin-bottom: 1.5rem; }
+.hero-actions { display: flex; gap: 10px; }
 
 /* Stats bar */
 .stats-bar {
