@@ -367,6 +367,7 @@ body.path-elter .main-container .row {
 	font-size: 14px;
 	padding: 5px 15px;
 	color: #424242;
+	border-bottom: 0.5px solid var(--landing-page-border);
 }
 
 .panel-title:hover {
@@ -374,7 +375,7 @@ body.path-elter .main-container .row {
 }
 
 .panel-default .panel-heading {
-	background: #EBEBEB;
+	background: #FFF;
     border-bottom: none;
 }
 
