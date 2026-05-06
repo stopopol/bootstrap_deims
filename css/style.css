@@ -373,7 +373,7 @@ body.path-elter .main-container .row {
 }
 
 .panel-title {
-	font-size: 14px;
+	font-size: smaller;
 	padding: 5px 15px;
 	color: #424242;
 }
