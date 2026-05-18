@@ -398,8 +398,9 @@ body.path-frontpage {
   .ql-arr { font-size: 13px; color: var(--landing-page-text3); margin-left: auto; }
 
   .right-align-content {
-	display: flex; 
-	justify-content: flex-end;
+  	display: flex;
+  	justify-content: flex-end;
+  	align-items: flex-end;
   }
 
 /*
