@@ -397,10 +397,10 @@ body.path-frontpage {
   .ql-s { font-size: 11px; color: var(--landing-page-text2); margin-top: 1px; }
   .ql-arr { font-size: 13px; color: var(--landing-page-text3); margin-left: auto; }
 
-  .right-align-content {
+  .spotlight-on-help-text {
   	display: flex;
   	justify-content: flex-end;
-  	align-items: flex-end;
+	margin-top: 1em;
   }
 
 /*
