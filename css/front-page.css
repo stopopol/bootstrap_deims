@@ -397,6 +397,10 @@ body.path-frontpage {
   .ql-s { font-size: 11px; color: var(--landing-page-text2); margin-top: 1px; }
   .ql-arr { font-size: 13px; color: var(--landing-page-text3); margin-left: auto; }
 
+  .right-align-content {
+	display: flex; 
+	justify-content: flex-end;
+  }
 
 /*
  * Latest Updates / Help Heading Override
