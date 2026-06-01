@@ -173,7 +173,9 @@ body.path-frontpage {
   border-radius: var(--landing-page-radius-lg);
   overflow: hidden;
   background: var(--landing-page-bg);
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 .stat-item {
