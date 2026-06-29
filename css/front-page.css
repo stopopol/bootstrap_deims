@@ -343,7 +343,6 @@ body.path-frontpage {
   .sotd-img svg { flex: 1; display: block; }
   .img-caption {
     padding: 7px 12px;
-    border-top: 0.5px solid var(--landing-page-border);
     font-size: 11px; color: var(--landing-page-text3);
     background: var(--landing-page-bg);
   }
