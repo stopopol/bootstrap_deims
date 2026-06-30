@@ -1,9 +1,9 @@
 /* =========================================================
-   DEIMS About Page (/about) — white card container
+   DEIMS Standard Pages — white card container
    ========================================================= */
 
 /* White rounded container wrapping the h1 + content */
-body.path-about .main-container .row {
+page-node-type-page .main-container .row {
   background: var(--landing-page-bg);
   border: 0.5px solid var(--landing-page-border);
   border-radius: var(--landing-page-radius-lg);
