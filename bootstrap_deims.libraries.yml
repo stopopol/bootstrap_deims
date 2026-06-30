@@ -6,6 +6,7 @@ framework:
       css/search_ui.css: {}
       css/loading-spinner.css: {}
       css/front-page.css: {}
+      css/about.css: {}
 
 open_sans:
   version: 1.00
