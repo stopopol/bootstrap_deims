@@ -2,8 +2,13 @@
    DEIMS Standard Pages — white card container
    ========================================================= */
 
+html.path-about,
+body.path-about {
+  background-color: var(--landing-page-bg3) !important;
+}
+ 
 /* White rounded container wrapping the h1 + content */
-.page-node-type-page .main-container .row {
+body.path-about .main-container .row {
   background: var(--landing-page-bg);
   border: 0.5px solid var(--landing-page-border);
   border-radius: var(--landing-page-radius-lg);
