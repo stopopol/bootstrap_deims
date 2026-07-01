@@ -21,7 +21,7 @@
     }
 
     body.path-frontpage #navbar,
-	body.path-about #navbar,
+	page-node-type-page #navbar,
     body.page-node-type-site #navbar,
 	body.page-node-type-observation-location #navbar {
         margin-top: 0;
