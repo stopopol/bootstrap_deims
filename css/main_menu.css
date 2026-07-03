@@ -13,6 +13,7 @@
 /* To Do: apply this to all pages in order to harmonise background settings */
 @media screen and (min-width: 768px) {
     body.path-frontpage,
+	body.page-node-type-network,
 	body.page-node-type-observation-location,
     body.page-node-type-site {
         background-color: #F5F5F5;
@@ -20,7 +21,8 @@
     }
 
     body.path-frontpage #navbar,
-    body.page-node-type-site #navbar,
+    body.page-node-type-network #navbar,
+	body.page-node-type-site #navbar,
 	body.page-node-type-observation-location #navbar {
         margin-top: 0;
         padding-top: 15px;
