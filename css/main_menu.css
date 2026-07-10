@@ -14,6 +14,7 @@
 @media screen and (min-width: 768px) {
     body.path-frontpage,
 	body.page-node-type-page,
+	body.path-contact,
 	body.page-node-type-network,
 	body.page-node-type-observation-location,
     body.page-node-type-site {
@@ -22,6 +23,7 @@
     }
 
     body.path-frontpage #navbar,
+	body.path-contact #navbar,
 	body.page-node-type-page #navbar,
     body.page-node-type-network #navbar,
 	body.page-node-type-site #navbar,
