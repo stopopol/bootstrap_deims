@@ -328,10 +328,12 @@ body.path-elter .main-container .row {
     padding-bottom: 15px !important;
 	background: #FFF;
 	border-top: 1px solid #d1d5da;
+	flex-shrink: 0; /* stays pinned at bottom */
 }
 
 .main-container {
     padding-bottom: 20px;
+	flex: 1 0 auto; /* grows to fill space */
 }
 
 .border-none {
