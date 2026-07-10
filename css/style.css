@@ -340,6 +340,7 @@ body.path-elter .main-container .row {
 	background: #FFF;
 	border-top: 1px solid #d1d5da;
 	flex-shrink: 0; /* stays pinned at bottom */
+	width: 100%;
 }
 
 /* glue footer to the bottom */
@@ -347,10 +348,12 @@ body.path-elter .main-container .row {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
 }
 
 .main-container {
     padding-bottom: 20px;
+	flex: 1 0 auto;
 }
 
 .border-none {
