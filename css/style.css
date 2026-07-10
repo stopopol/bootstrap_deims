@@ -342,9 +342,15 @@ body.path-elter .main-container .row {
 	flex-shrink: 0; /* stays pinned at bottom */
 }
 
+/* glue footer to the bottom */
+.dialog-off-canvas-main-canvas {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .main-container {
     padding-bottom: 20px;
-	flex: 1 0 auto; /* grows to fill space */
 }
 
 .border-none {
