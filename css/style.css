@@ -346,8 +346,9 @@ body.path-elter .main-container .row {
 }
 
 .main-container {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 	flex: 1 0 auto;
+	width: 100%;
 }
 
 .border-none {
