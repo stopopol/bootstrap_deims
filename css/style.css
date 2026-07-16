@@ -448,7 +448,7 @@ body.path-elter .main-container .row {
 	content: none !important;
 }
 
-/* bugfixed for small width values of widgehts*/
+/* bugfixed for small width values of widgets*/
 .field-group-tab {
 	width: 100%;
 }
