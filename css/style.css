@@ -433,6 +433,10 @@ body.path-elter .main-container .row {
  * https://www.drupal.org/project/chosen/issues/1857298
  */
 
+#edit_my_content_filter_chosen {
+  min-width: 250px;
+}
+
 
 .tabs-left > .tab-content, .tabs-right > .tab-content {
     overflow: visible;
