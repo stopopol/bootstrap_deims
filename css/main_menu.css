@@ -115,6 +115,7 @@ top: auto!important;
     color: #000000;
 	border-radius: 8px;
 	text-decoration: none;
+	z-index: -1;
 } 
 
 #superfish-main ul {
