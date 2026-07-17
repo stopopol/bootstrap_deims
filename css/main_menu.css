@@ -137,23 +137,22 @@ top: auto!important;
  * DEIMS Logo and Home Button
  */
 
+:root {
+    --deims-logo-width: 120px;
+    --deims-logo-height: 35px;
+}
+
 #main-standardfront-page {
-	background-image: url('../images/logo_title_inline_height20.png');
-	background-repeat: no-repeat;
-	background-position: 50% 50%; 
-	width: 120px;
-	height: 35px;
+    background-image: url('../images/logo_title_inline_height20.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: var(--deims-logo-width);
+    height: var(--deims-logo-height);
 }
 
 #main-standardfront-page a {
-	color: transparent !important;
-	background-color: transparent !important;
-	width: 160px;
-	height: 35px;
+    color: transparent !important;
+    background-color: transparent !important;
+    width: var(--deims-logo-width);
+    height: var(--deims-logo-height);
 }
-
-/*
-#main-standardfront-page:hover {
-	background-color: #DCDCDC;
-	border-radius: 8px;	
-} */
