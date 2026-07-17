@@ -85,11 +85,12 @@ ul.sf-menu.sf-style-white li li:last-of-type {
 
 /* keep second level always visible */
 .sf-depth-2 menuparent>ul {
-	display: inline !important;
-	visibility: visible!important;
-	display: block!important;
-	left: 0!important;
-	top: auto!important;
+    display: block !important;
+    visibility: visible !important;
+    left: 0 !important;
+    top: auto !important;
+    position: absolute;
+    z-index: 9999;
 }
 
 /*
