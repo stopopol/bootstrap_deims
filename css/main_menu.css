@@ -11,8 +11,8 @@
 
 /* bugfix */
 .dialog-off-canvas-main-canvas > header.navbar {
-  flex-shrink: 0;
-  width: 100%;
+	flex-shrink: 0;
+	width: 100%;
 }
 
 /* i need to change the base setting for the body so the navbar doesn't have the colour issues on the frontpage */
@@ -45,7 +45,7 @@
 }
 
 #superfish-main a, #superfish-main .nolink {
-	background-color: #FFFFFF;
+	background-color: transparent;
     color: #535a60;
 	border-radius: 8px 8px 8px 8px;
 }
@@ -79,16 +79,17 @@ ul.sf-menu.sf-style-white li li:last-of-type {
 }
 
 .sf-depth-2 {
+	position: absolute;
 	z-index: 9999;
 }
 
 /* keep second level always visible */
 .sf-depth-2 menuparent>ul {
-display: inline !important;
-visibility: visible!important;
-display: block!important;
-left: 0!important;
-top: auto!important;
+	display: inline !important;
+	visibility: visible!important;
+	display: block!important;
+	left: 0!important;
+	top: auto!important;
 }
 
 /*
@@ -115,18 +116,26 @@ top: auto!important;
     color: #000000;
 	border-radius: 8px;
 	text-decoration: none;
-	z-index: -1;
+}
+
+#superfish-main li {
+    position: relative;
 } 
 
 #superfish-main ul {
     text-decoration: none;
     border: 1px solid #d1d5da;
-    background-color: #FFFFFF;  /* ← this line is missing */
+    background-color: #FFFFFF;
     overflow: visible;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px; 
+}
+
+#superfish-main li ul {
+    position: absolute;
+    z-index: 9999;
 }
 
 /* first sub menu */
