@@ -111,8 +111,8 @@ top: auto!important;
 }
 
 #superfish-main a:hover {
-	background-color: #d1d5da;
-    	color: #000000;
+	background-color: var(--landing-page-bg2);
+    color: #000000;
 	border-radius: 8px;
 	text-decoration: none;
 } 
