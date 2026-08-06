@@ -40,6 +40,11 @@
     }
 }
 
+/* specifically colour in edit group element for site edit pages */
+[data-drupal-selector="edit-group-container"] {
+  background-color: #ffffff;
+}
+
 #superfish-main {
 	padding-right: 1em;
 }
