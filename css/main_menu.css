@@ -22,6 +22,7 @@
 	body.page-node-type-page,
 	body.path-contact,
 	body.page-node-type-network,
+	body.page-node-type-organisation,
 	body.path-networks,
 	body.page-node-type-observation-location,
     body.page-node-type-site {
@@ -34,6 +35,7 @@
 	body.path-networks #navbar,
 	body.page-node-type-page #navbar,
     body.page-node-type-network #navbar,
+	body.page-node-type-organisation #navbar,
 	body.page-node-type-site #navbar,
 	body.page-node-type-observation-location #navbar {
         margin-top: 0;
