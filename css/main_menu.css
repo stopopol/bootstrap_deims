@@ -9,6 +9,22 @@
     margin-top: 0;
 }
 
+/* push name autocomplete widget to be inline */
+.region-navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#block-bootstrap-deims-mainnavigation {
+    flex: 1;
+}
+
+#block-bootstrap-deims-exposedformlter-site-searchpage-2 {
+    flex: 0 0 auto;
+    margin-left: 20px;
+}
+
 /* bugfix */
 .dialog-off-canvas-main-canvas > header.navbar {
 	flex-shrink: 0;
