@@ -16,12 +16,24 @@
     width: 100%;
 }
 
+/* and style it */
 #block-bootstrap-deims-exposedformlter-site-searchpage-2 .form-control {
     width: 175px !important;
 }
 
 #block-bootstrap-deims-mainnavigation {
     flex: 1;
+}
+
+#block-bootstrap-deims-exposedformlter-site-searchpage-2 .btn {
+    background-color: var(--landing-page-green) !important;
+    border-color: var(--landing-page-green) !important;
+    color: white !important;
+}
+
+#block-bootstrap-deims-exposedformlter-site-searchpage-2 .btn:hover,
+#block-bootstrap-deims-exposedformlter-site-searchpage-2 .btn:focus {
+    filter: brightness(85%);
 }
 
 #block-bootstrap-deims-exposedformlter-site-searchpage-2 {
