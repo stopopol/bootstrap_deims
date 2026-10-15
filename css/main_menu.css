@@ -16,6 +16,10 @@
     width: 100%;
 }
 
+#block-bootstrap-deims-exposedformlter-site-searchpage-2 .form-control {
+    width: 175px !important;
+}
+
 #block-bootstrap-deims-mainnavigation {
     flex: 1;
 }
