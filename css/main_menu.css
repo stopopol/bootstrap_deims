@@ -9,6 +9,11 @@
     margin-top: 0;
 }
 
+/* Specificity (1,1,1) beats .js input.form-autocomplete (0,2,1) */
+#navbar input.form-autocomplete {
+  background-image: none;
+}
+
 /* push name autocomplete widget to be inline */
 .region-navigation {
     display: flex;
