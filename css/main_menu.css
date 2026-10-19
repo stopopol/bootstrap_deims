@@ -38,7 +38,7 @@
 
 #block-bootstrap-deims-exposedformlter-site-searchpage-2 .btn:hover,
 #block-bootstrap-deims-exposedformlter-site-searchpage-2 .btn:focus {
-    filter: brightness(85%);
+    background: var(--landing-page-green-dark) !important;
 }
 
 #block-bootstrap-deims-exposedformlter-site-searchpage-2 {
