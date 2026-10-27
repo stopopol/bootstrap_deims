@@ -414,8 +414,12 @@ body.path-elter .main-container .row {
     border-color: #bce8f1;
     border-radius: 5px;
     padding: 0.75em;
-    text-align: center;
+    text-align: left;
     margin-top: 1em;
+}
+
+.status-message-text-align-center {
+	text-align: center !important;
 }
 
 /*
